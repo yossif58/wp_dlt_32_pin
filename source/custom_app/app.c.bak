@@ -303,7 +303,8 @@ uint32_t meter_task(void)
            DCUPushTask();   // y.f. push task every 5 sec and not 0.5 sec
 #endif         
          // 18/05/21 push task also for dcu 
-#ifdef ELECTRIC_METER          
+#ifdef ELECTRIC_METER  
+   //         SendPeriodicMsg(); // send to be removed y.f. 29/9/22 
             PushTask();   // y.f. push task every 5 sec and not 0.5 sec
 #ifdef PUSH_DEBUG
         if (PushdebugInprogress) 
