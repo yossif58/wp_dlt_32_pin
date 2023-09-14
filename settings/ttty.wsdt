@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+  <CurrentConfigs><Project>efr-push/Debug</Project></CurrentConfigs></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>535</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Find-in-Files>
+        
+        
+        
+        
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Select-Ambiguous-Definitions</Factory></Window></Windows></PreferedWindows><ColumnWidth0>932</ColumnWidth0><ColumnWidth1>173</ColumnWidth1><ColumnWidth2>481</ColumnWidth2><ColumnWidth3>214</ColumnWidth3></Find-in-Files>
+      <Select-Ambiguous-Definitions>
+        
+        
+        
+      <PreferedWindows><Position>3</Position><ScreenPosX>0</ScreenPosX><ScreenPosY>0</ScreenPosY><Windows><Window><Factory>Find-in-Files</Factory></Window></Windows></PreferedWindows><ColumnWidth0>374</ColumnWidth0><ColumnWidth1>53</ColumnWidth1><ColumnWidth2>642</ColumnWidth2></Select-Ambiguous-Definitions>
+    <Find-All-Declarations><ColumnWidth0>470</ColumnWidth0><ColumnWidth1>67</ColumnWidth1><ColumnWidth2>806</ColumnWidth2></Find-All-Declarations><Build><ColumnWidth0>19</ColumnWidth0><ColumnWidth1>1108</ColumnWidth1><ColumnWidth2>295</ColumnWidth2><ColumnWidth3>73</ColumnWidth3></Build></Static>
+    <Windows>
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-15978-4097</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>efr-push</ExpandedNode><ExpandedNode>efr-push/drivers</ExpandedNode><ExpandedNode>efr-push/drivers/efr32xg13</ExpandedNode><ExpandedNode>efr-push/meter</ExpandedNode><ExpandedNode>efr-push/meter/RfMesh.c</ExpandedNode><ExpandedNode>efr-push/meter/uartdlt.c</ExpandedNode><ExpandedNode>efr-push/usart.c</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1><Tabs><Tab><Identity>TabID-26202-32688</Identity><TabName>Find in Files</TabName><Factory>Find-in-Files</Factory><Session/></Tab><Tab><Identity>TabID-3245-14721</Identity><TabName>Ambiguous Definitions</TabName><Factory>Select-Ambiguous-Definitions</Factory><Session/></Tab><Tab><Identity>TabID-20361-24020</Identity><TabName>Declarations</TabName><Factory>Find-All-Declarations</Factory><Session/></Tab><Tab><Identity>TabID-4410-6234</Identity><TabName>Build</TabName><Factory>Build</Factory><Session/></Tab></Tabs><SelectedTab>0</SelectedTab></Wnd1></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\board\brd4158a\board.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>610</SelStart2><SelEnd2>610</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\build\brd4158a\custom_app_meter\source\custom_app\app.o</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>0</YPos2><SelStart2>1033</SelStart2><SelEnd2>1033</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\build\brd4158a\custom_app\custom_app.map</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>884</YPos2><SelStart2>0</SelStart2><SelEnd2>0</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\source\custom_app\app.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>200</YPos2><SelStart2>1007</SelStart2><SelEnd2>1007</SelEnd2></Tab><ActiveTab>3</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-06119C78><key>iaridepm.enu1</key></Toolbar-06119C78></Sizes></Row0></Top><Left><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>188</Bottom><Right>626</Right><x>-2</x><y>-2</y><xscreen>617</xscreen><yscreen>1207</yscreen><sizeHorzCX>653602</sizeHorzCX><sizeHorzCY>2860190</sizeHorzCY><sizeVertCX>665254</sizeVertCX><sizeVertCY>450237</sizeVertCY></Rect></Wnd0></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>189</Bottom><Right>946</Right><x>-2</x><y>-2</y><xscreen>948</xscreen><yscreen>191</yscreen><sizeHorzCX>1004237</sizeHorzCX><sizeHorzCY>452607</sizeHorzCY><sizeVertCX>601695</sizeVertCX><sizeVertCY>2334123</sizeVertCY></Rect></Wnd1></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

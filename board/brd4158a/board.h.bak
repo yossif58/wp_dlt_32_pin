@@ -1,0 +1,41 @@
+/* Copyright 2019 Wirepas Ltd. All Rights Reserved.
+ *
+ * See file LICENSE.txt for full license details.
+ *
+ */
+
+#ifndef BOARD_BRD4158A_BOARD_H_
+#define BOARD_BRD4158A_BOARD_H_
+
+// Waps usart defines
+#define BOARD_USART                     USART0
+#define BOARD_USART_GPIO_PORT           GPIOA
+#define BOARD_USART_ROUTELOC_RXLOC      USART_ROUTELOC0_RXLOC_LOC0
+#define BOARD_USART_ROUTELOC_TXLOC      USART_ROUTELOC0_TXLOC_LOC0
+
+#define BOARD_USART_CMU_BIT             CMU_HFPERCLKEN0_USART0
+
+#define BOARD_UART_RX_IRQn              USART0_RX_IRQn
+#define BOARD_UART_TX_IRQn              USART0_TX_IRQn
+
+#define BOARD_USART_TX_PIN              0
+#define BOARD_USART_RX_PIN              1
+
+// Interrupt pin for waps uart
+#define BOARD_UART_INT_PIN              9
+#define BOARD_UART_INT_PORT             GPIOC
+
+// Led mapping:
+// On Wirepas kit board: LED0 = PF4, LED1 = PF5
+#define BOARD_LED_PIN_LIST {{GPIOF, 4}, {GPIOF, 5}}
+#define BOARD_PWM_VALVE_DRIVER_PORT     			GPIOA // y.f. 19/02/2020 add for vocom enable 
+#define BOARD_PWM_VALVE_DRIVER_P_PIN    			5
+// Button mapping:
+// No buttons on board nor on Wirepas kit board.
+// Define here if want to use HAL_BUTTON=yes
+// Then also need to implement hal/button.c
+// An example:
+//#define BOARD_BUTTON_PIN_LIST {{GPIOF, 7}}
+
+
+#endif /* BOARD_BRD4158A_BOARD_H_ */

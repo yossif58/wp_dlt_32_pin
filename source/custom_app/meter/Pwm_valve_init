@@ -1,0 +1,18 @@
+$ ./meter-efr.sh
+preparing meter efr wirepas hex file
+Target board is brd4158a
+make -f makefile_app.mk
+make[1]: Entering directory '/home/yosif/wirepas-SDK-efr32xg13pxxxf512-brd4158a-nodcdc_india865-v4.0.62-yossi'
+Target board is brd4158a
+Building app for brd4158a
+mkdir -p build/brd4158a/custom_app/source/custom_app/meter
+arm-none-eabi-gcc -Imcu/efr32xg13/cmsis -Imcu/efr32xg13 -Imcu/efr32xg13/hal -Iboard/brd4158a -Isource/custom_app/drivers/ -Isource/custom_app/meter/  -Ilibraries/ -Iapi/ -Isource/custom_app/include -Iutil/ -Imcu/hal_api -Wall -Werror -Wextra -std=gnu99 -mthumb -nostartfiles -lgcc -lnosys -ggdb --specs=nano.specs -Os -ffunction-sections -fdata-sections -DWITH_BEACON -DEFR32FG13 -DEFR32FG13P233F512GM48 -Wno-unused-parameter -DTARGET_BOARD=brd4158a -DMCU=efr32xg13 -DEFR32XG13 -march=armv7e-m -DMETER_VERSION=1 -D_SILICON_LABS_32B_SERIES_0 -Imcu/hal_api/ -DNETWORK_ADDRESS=0xA1B2C3 -DNETWORK_CHANNEL=2 -c source/custom_app/meter/DLTProtocol.c -o build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+arm-none-eabi-gcc -Wall -Werror -Wextra -std=gnu99 -mthumb -nostartfiles -lgcc -lnosys -ggdb --specs=nano.specs -Os -ffunction-sections -fdata-sections -DWITH_BEACON -DEFR32FG13 -DEFR32FG13P233F512GM48 -Wno-unused-parameter -DTARGET_BOARD=brd4158a -DMCU=efr32xg13 -DEFR32XG13 -march=armv7e-m -DMETER_VERSION=1 -D_SILICON_LABS_32B_SERIES_0 -Imcu/hal_api/ -DNETWORK_ADDRESS=0xA1B2C3 -DNETWORK_CHANNEL=2 -Wl,--gc-sections -o build/brd4158a/custom_app/custom_app.elf build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/io.o build/brd4158a/custom_app/source/custom_app/meter/utils.o build/brd4158a/custom_app/source/custom_app/meter/logger.o build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o build/brd4158a/custom_app/source/custom_app/meter/uartdlt.o build/brd4158a/custom_app/source/custom_app/meter/persistent.o build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/led.o build/brd4158a/custom_app/util/crc.o build/brd4158a/custom_app/util/sl_list.o build/brd4158a/custom_app/util/util.o build/brd4158a/custom_app/util/api.o build/brd4158a/custom_app/mcu/efr32xg13/hal/hfperclk.o build/brd4158a/custom_app/mcu/efr32xg13/hal/usart.o build/brd4158a/custom_app/mcu/efr32xg13/hal/ds.o build/brd4158a/custom_app/mcu/efr32xg13/hal/hal.o build/brd4158a/custom_app/source/custom_app/app.o build/brd4158a/custom_app/mcu/common/start.o build/brd4158a/custom_app/mcu/efr32xg13/hal/led.o build/brd4158a/custom_app/mcu/common/entrypoint.o \
+      -Wl,-Map=build/brd4158a/custom_app/custom_app.map \
+      -Wl,-T,mcu/efr32xg13/linker/gcc_app_efr32xg13pxxxf512.ld
+build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o: In function `HandleRxFromMeter':
+C:\cygwin64\home\yosif\wirepas-SDK-efr32xg13pxxxf512-brd4158a-nodcdc_india865-v4.0.62-yossi/source/custom_app/meter/DLTProtocol.c:623: undefined reference to `WPSendMsg'
+collect2.exe: error: ld returned 1 exit status
+make[1]: *** [makefile_app.mk:59: build/brd4158a/custom_app/custom_app.elf] Error 1
+make[1]: Leaving directory '/home/yosif/wirepas-SDK-efr32xg13pxxxf512-brd4158a-nodcdc_india865-v4.0.62-yossi'
+make: *** [makefile:139: build/brd4158a/custom_app/custom_app.hex] Error 2

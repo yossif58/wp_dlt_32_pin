@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['sendto',['sendto',['../d3/ddd/ipv6_8h.html#aa5738d37299c66be76fb62d0f617695d',1,'ipv6.h']]],
+  ['sl_5flist_5fat',['sl_list_at',['../da/dc2/sl__list_8h.html#a509034157f436990e4ee4e0ccf92b2a9',1,'sl_list.h']]],
+  ['sl_5flist_5fcontains',['sl_list_contains',['../da/dc2/sl__list_8h.html#a70bc30dc4a68ae37f89acbfd6529ec40',1,'sl_list.h']]],
+  ['sl_5flist_5finit',['sl_list_init',['../da/dc2/sl__list_8h.html#af48b4b5210d05b52be5ace0be930f855',1,'sl_list.h']]],
+  ['sl_5flist_5fnext',['sl_list_next',['../da/dc2/sl__list_8h.html#aa36339e2f5014befda229137f7bad38f',1,'sl_list.h']]],
+  ['sl_5flist_5fpop',['sl_list_pop',['../da/dc2/sl__list_8h.html#a83852438122eef689f7b7f4f6fc799ec',1,'sl_list.h']]],
+  ['sl_5flist_5fpop_5fback',['sl_list_pop_back',['../da/dc2/sl__list_8h.html#a9ed50a2f928464bbe00d37f6cb9f8025',1,'sl_list.h']]],
+  ['sl_5flist_5fpop_5ffront',['sl_list_pop_front',['../da/dc2/sl__list_8h.html#a516b97d8c15d96b5f355f8e9fe697ad5',1,'sl_list.h']]],
+  ['sl_5flist_5fpush_5fback',['sl_list_push_back',['../da/dc2/sl__list_8h.html#adb1a06935a1cd74a22a42a2ff35bbd84',1,'sl_list.h']]],
+  ['sl_5flist_5fpush_5fbefore',['sl_list_push_before',['../da/dc2/sl__list_8h.html#a56f30ece957257b745655de095eb31ac',1,'sl_list.h']]],
+  ['sl_5flist_5fpush_5ffront',['sl_list_push_front',['../da/dc2/sl__list_8h.html#a90f73e5ac3693c049b5bbae9d6adb277',1,'sl_list.h']]],
+  ['sl_5flist_5fremove',['sl_list_remove',['../da/dc2/sl__list_8h.html#a34253294e8749d84c80c8ae100c3c20c',1,'sl_list.h']]],
+  ['sl_5flist_5fsearch',['sl_list_search',['../da/dc2/sl__list_8h.html#a2c1e0acd45db9bd7f73f446c497e64d1',1,'sl_list.h']]],
+  ['sl_5flist_5fswap',['sl_list_swap',['../da/dc2/sl__list_8h.html#a8498a334d1248f2e8c8ebef53d18bb7b',1,'sl_list.h']]],
+  ['sockaddr_5fin6_5fmatch',['sockaddr_in6_match',['../d7/d27/in6_8h.html#a8ecd5d49b80484ca5516e625eb6dc7ae',1,'in6.h']]],
+  ['socket',['socket',['../d3/ddd/ipv6_8h.html#a78e26756eb206cfd17ed28d821d2b66e',1,'ipv6.h']]],
+  ['spi_5fclose',['SPI_close',['../da/d87/spi_8h.html#aba238cfdaf22ab5d72f5ddc1985843a0',1,'spi.h']]],
+  ['spi_5finit',['SPI_init',['../da/d87/spi_8h.html#aa94843701f8bd5ec702e0b775fdfd0c8',1,'spi.h']]],
+  ['spi_5ftransfer',['SPI_transfer',['../da/d87/spi_8h.html#a9cd392449cad8123749951ea2e434415',1,'spi.h']]]
+];

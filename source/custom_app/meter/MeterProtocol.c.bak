@@ -1,0 +1,86 @@
+/**********************************************************************************
+*																					*
+* FILE NAME:																		*
+*   WirepasProtocol.c																*
+*																					*
+* DESCRIPTION:																		*
+*   This file contains all routines for the Meter Protocol to communicate with sink *
+* HISTORY																			*
+*   Ferlandes Yossi																	*
+* - CREATION      																	*
+*   Yossi Ferlandes25/10/2018													    *
+*                                                                                   *
+************************************************************************************/
+#define METER_PROTOCOL_H
+#include "stdio.h"
+#include "stdint.h"
+#include "string.h"
+#include "MeterProtocol.h"
+#include "api.h"
+#include "data.h"
+#include "utils.h"
+#include "WaterCalc.h"
+#include "logger.h"
+#include "eeprom.h"
+#include "led.h"
+
+/* local vars defenitions ***********************************************************/
+
+/** y.f. Endpoint to send data */
+#define DATA_EP        1
+
+uint32_t MsgTxId = 0;   
+
+
+/*************************************************************************************/
+/************************** local function defenitions *******************************/
+/*************************************************************************************/
+
+/***************************Exported Vars                                            */
+/***************************Extern functions******************************************/
+void WPSendMsg(char *DataIn, int16_t Size,long long address)
+{
+
+    // Create a data packet to send
+
+    app_lib_data_to_send_t data_to_send;
+    data_to_send.bytes = (const uint8_t *) DataIn;
+    data_to_send.num_bytes = Size;
+    data_to_send.dest_address  = address & 0xffffff;  // Only 24 bits in address max value is 0xffffff we want to store the 9 LSB digits
+    data_to_send.src_endpoint  = DATA_EP;
+    data_to_send.dest_endpoint = DATA_EP;
+    data_to_send.qos = APP_LIB_DATA_QOS_HIGH;
+    data_to_send.delay = 0;
+    data_to_send.flags = APP_LIB_DATA_SEND_FLAG_NONE;
+    data_to_send.tracking_id = APP_LIB_DATA_NO_TRACKING_ID;
+    // Send the data packet
+    lib_data->sendData(&data_to_send);
+    //blink_func();
+
+ 
+}
+
+void SendPeriodicMsg(void)
+{
+ 
+ uint8_t btmp[250];
+ char ItStatus[240];
+    // Increment value to send
+    	  MsgTxId++;
+          sprintf (( char*)&ItStatus, "{ MAC: " );
+          ConvertBinToAscii(sMyConfig.aExtendedAddress,btmp);
+          strcat (( char*)&ItStatus,( char*)btmp);
+          strcat (( char*)&ItStatus, " messageid: " );
+          ConvertBinToAscii(MsgTxId,btmp);
+          strcat (( char*)&ItStatus,( char*)btmp);
+          strcat (( char*)&ItStatus, " Consumption: " );
+          ConvertBinToAscii(get_water_ticks(0),btmp);
+          strcat (( char*)&ItStatus,( char*)btmp);
+          strcat (( char*)&ItStatus,"}");
+#ifdef METER_SINK          
+          WPSendMsg((char*)ItStatus, strlen(ItStatus),10000001); // This address is only for test
+#else
+          WPSendMsg((char*)ItStatus, strlen(ItStatus),APP_ADDR_ANYSINK);  // other meters exept the sink itself shuld send direct to sink 
+#endif          
+
+}

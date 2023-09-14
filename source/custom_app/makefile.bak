@@ -1,0 +1,8 @@
+# You can add more sources here if needed
+# Define default network settings
+CFLAGS += -DNETWORK_ADDRESS=$(default_network_address)
+CFLAGS += -DNETWORK_CHANNEL=$(default_network_channel)
+include $(SRCS_PATH)drivers/makefile
+include $(HAL_API_PATH)makefile
+# Generic util functions are needed (api.c)
+include $(UTIL_PATH)makefile

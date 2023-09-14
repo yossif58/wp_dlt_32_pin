@@ -1,0 +1,847 @@
+Archive member included because of file (symbol)
+
+image/efr32xg13pxxxf512/bootloader.a(bl_startup_efr32.o)
+                              (__startup__)
+image/efr32xg13pxxxf512/bootloader.a(bl_start_v3.o)
+                              image/efr32xg13pxxxf512/bootloader.a(bl_startup_efr32.o) (_bl_start)
+image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+                              image/efr32xg13pxxxf512/bootloader.a(bl_start_v3.o) (Bootloader_findVerifyScratchpad)
+image/efr32xg13pxxxf512/bootloader.a(memoryarea.o)
+                              image/efr32xg13pxxxf512/bootloader.a(bl_start_v3.o) (MemoryArea_init)
+image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+                              image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o) (Scratchpad_getValidity)
+image/efr32xg13pxxxf512/bootloader.a(bl_interface.o)
+                              image/efr32xg13pxxxf512/bootloader.a(bl_start_v3.o) (m_bl_interface)
+image/efr32xg13pxxxf512/bootloader.a(aes.o)
+                              image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o) (aes_setupStream)
+image/efr32xg13pxxxf512/bootloader.a(crc.o)
+                              image/efr32xg13pxxxf512/bootloader.a(scratchpad.o) (Crc_addByte)
+image/efr32xg13pxxxf512/bootloader.a(puff.o)
+                              image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o) (puff)
+image/efr32xg13pxxxf512/bootloader.a(system_efr32fg13p.o)
+                              image/efr32xg13pxxxf512/bootloader.a(bl_start_v3.o) (SystemInit)
+image/efr32xg13pxxxf512/bootloader.a(aeshw.o)
+                              image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o) (aes_omac1)
+image/efr32xg13pxxxf512/bootloader.a(energy_management.o)
+                              image/efr32xg13pxxxf512/bootloader.a(aeshw.o) (Em_disableDeepSleep)
+image/efr32xg13pxxxf512/bootloader.a(internal_flash.o)
+                              image/efr32xg13pxxxf512/bootloader.a(memoryarea.o) (internalFlash_init)
+image/efr32xg13pxxxf512/bootloader.a(interrupt.o)
+                              image/efr32xg13pxxxf512/bootloader.a(energy_management.o) (m_interrupt_mutex)
+c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memcmp.o)
+                              image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o) (memcmp)
+c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memcpy-stub.o)
+                              image/efr32xg13pxxxf512/bootloader.a(scratchpad.o) (memcpy)
+c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-setjmp.o)
+                              image/efr32xg13pxxxf512/bootloader.a(puff.o) (setjmp)
+
+Allocating common symbols
+Common symbol       size              file
+
+aes_omac1_HL1       0x10              image/efr32xg13pxxxf512/bootloader.a(aes.o)
+em_disable_deep_sleep
+                    0x4               image/efr32xg13pxxxf512/bootloader.a(energy_management.o)
+aes_omac1_HL2       0x10              image/efr32xg13pxxxf512/bootloader.a(aes.o)
+aes_omac1_data      0x30              image/efr32xg13pxxxf512/bootloader.a(aes.o)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/brd4158a/bootloader/bootloader/early_init.o
+ .data          0x00000000        0x0 build/brd4158a/bootloader/bootloader/early_init.o
+ .bss           0x00000000        0x0 build/brd4158a/bootloader/bootloader/early_init.o
+ .text          0x00000000        0x0 build/brd4158a/bootloader/bootloader/external_flash.o
+ .data          0x00000000        0x0 build/brd4158a/bootloader/bootloader/external_flash.o
+ .bss           0x00000000        0x0 build/brd4158a/bootloader/bootloader/external_flash.o
+ .text          0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(bl_startup_efr32.o)
+ .data          0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(bl_startup_efr32.o)
+ .bss           0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(bl_startup_efr32.o)
+ .text          0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(bl_start_v3.o)
+ .data          0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(bl_start_v3.o)
+ .bss           0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(bl_start_v3.o)
+ .text          0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ .data          0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ .text          0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(memoryarea.o)
+ .data          0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(memoryarea.o)
+ .bss           0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(memoryarea.o)
+ .text          0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+ .data          0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+ .bss           0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+ .text          0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(bl_interface.o)
+ .data          0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(bl_interface.o)
+ .bss           0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(bl_interface.o)
+ .text          0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(aes.o)
+ .data          0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(aes.o)
+ .bss           0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(aes.o)
+ .rodata.aes_plaintext_ff
+                0x00000000       0x10 image/efr32xg13pxxxf512/bootloader.a(aes.o)
+ .text          0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(crc.o)
+ .data          0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(crc.o)
+ .bss           0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(crc.o)
+ .text.Crc_fromBuffer
+                0x00000000       0x1a image/efr32xg13pxxxf512/bootloader.a(crc.o)
+ .text.Crc_fromBuffer32
+                0x00000000       0x34 image/efr32xg13pxxxf512/bootloader.a(crc.o)
+ .text          0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(puff.o)
+ .data          0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(puff.o)
+ .bss           0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(puff.o)
+ .text          0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(system_efr32fg13p.o)
+ .data          0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(system_efr32fg13p.o)
+ .bss           0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(system_efr32fg13p.o)
+ .text.SystemMaxCoreClockGet
+                0x00000000        0x8 image/efr32xg13pxxxf512/bootloader.a(system_efr32fg13p.o)
+ .text.SystemHFClockGet
+                0x00000000       0x48 image/efr32xg13pxxxf512/bootloader.a(system_efr32fg13p.o)
+ .text.SystemCoreClockGet
+                0x00000000       0x24 image/efr32xg13pxxxf512/bootloader.a(system_efr32fg13p.o)
+ .text.SystemHFXOClockGet
+                0x00000000        0xc image/efr32xg13pxxxf512/bootloader.a(system_efr32fg13p.o)
+ .text.SystemHFXOClockSet
+                0x00000000       0x20 image/efr32xg13pxxxf512/bootloader.a(system_efr32fg13p.o)
+ .text.SystemLFRCOClockGet
+                0x00000000        0x6 image/efr32xg13pxxxf512/bootloader.a(system_efr32fg13p.o)
+ .text.SystemULFRCOClockGet
+                0x00000000        0x6 image/efr32xg13pxxxf512/bootloader.a(system_efr32fg13p.o)
+ .text.SystemLFXOClockGet
+                0x00000000        0xc image/efr32xg13pxxxf512/bootloader.a(system_efr32fg13p.o)
+ .text.SystemLFXOClockSet
+                0x00000000       0x20 image/efr32xg13pxxxf512/bootloader.a(system_efr32fg13p.o)
+ .data.SystemLFXOClock
+                0x00000000        0x4 image/efr32xg13pxxxf512/bootloader.a(system_efr32fg13p.o)
+ .data.SystemHFXOClock
+                0x00000000        0x4 image/efr32xg13pxxxf512/bootloader.a(system_efr32fg13p.o)
+ .data.SystemCoreClock
+                0x00000000        0x4 image/efr32xg13pxxxf512/bootloader.a(system_efr32fg13p.o)
+ .data.SystemHfrcoFreq
+                0x00000000        0x4 image/efr32xg13pxxxf512/bootloader.a(system_efr32fg13p.o)
+ .text          0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(aeshw.o)
+ .data          0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(aeshw.o)
+ .bss           0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(aeshw.o)
+ .text.get_AESRandom
+                0x00000000        0xc image/efr32xg13pxxxf512/bootloader.a(aeshw.o)
+ .text.aes_hwinit
+                0x00000000       0x10 image/efr32xg13pxxxf512/bootloader.a(aeshw.o)
+ .text          0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(energy_management.o)
+ .data          0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(energy_management.o)
+ .bss           0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(energy_management.o)
+ .text.unlikely.NVIC_SystemReset
+                0x00000000       0x20 image/efr32xg13pxxxf512/bootloader.a(energy_management.o)
+ .text.timer0Control
+                0x00000000       0x1c image/efr32xg13pxxxf512/bootloader.a(energy_management.o)
+ .text.adcControl
+                0x00000000       0x1c image/efr32xg13pxxxf512/bootloader.a(energy_management.o)
+ .text.prsControl
+                0x00000000       0x1c image/efr32xg13pxxxf512/bootloader.a(energy_management.o)
+ .text.Em_moduleInit
+                0x00000000       0x2c image/efr32xg13pxxxf512/bootloader.a(energy_management.o)
+ .text.Em_moduleInitOsReady
+                0x00000000        0x2 image/efr32xg13pxxxf512/bootloader.a(energy_management.o)
+ .text.Em_requestPeripheralActive
+                0x00000000       0x60 image/efr32xg13pxxxf512/bootloader.a(energy_management.o)
+ .text.Em_isPeripheralActive
+                0x00000000       0x38 image/efr32xg13pxxxf512/bootloader.a(energy_management.o)
+ .text.Em_requestPeripheralDeactive
+                0x00000000       0x58 image/efr32xg13pxxxf512/bootloader.a(energy_management.o)
+ .text.Em_requestEnergySavingMode
+                0x00000000       0x6c image/efr32xg13pxxxf512/bootloader.a(energy_management.o)
+ .data.m_LUT    0x00000000       0x30 image/efr32xg13pxxxf512/bootloader.a(energy_management.o)
+ .text          0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(internal_flash.o)
+ .data          0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(internal_flash.o)
+ .bss           0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(internal_flash.o)
+ .text          0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(interrupt.o)
+ .data          0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(interrupt.o)
+ .bss           0x00000000        0x0 image/efr32xg13pxxxf512/bootloader.a(interrupt.o)
+ .text.Interrupt_init
+                0x00000000       0x48 image/efr32xg13pxxxf512/bootloader.a(interrupt.o)
+ .text.Interrupt_addOneShotIsr
+                0x00000000       0x44 image/efr32xg13pxxxf512/bootloader.a(interrupt.o)
+ .text.Interrupt_cancelOneShotIsr
+                0x00000000       0x38 image/efr32xg13pxxxf512/bootloader.a(interrupt.o)
+ .text.SW_IRQHandler
+                0x00000000       0x60 image/efr32xg13pxxxf512/bootloader.a(interrupt.o)
+ .bss.m_callback
+                0x00000000        0x4 image/efr32xg13pxxxf512/bootloader.a(interrupt.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memcmp.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memcmp.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memcmp.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memcpy-stub.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memcpy-stub.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-setjmp.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-setjmp.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+BOOTLOADER       0x00000000         0x00003800         xr
+BLCONFIG         0x00003800         0x00000800         xr
+LOCKBITS         0x0fe04000         0x00000200         xr
+BL_STATIC        0x20000000         0x00000400         xrw
+RAM              0x20000400         0x0000fbe8         xrw
+INVALID          0xffffffff         0x00000000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libnosys.a
+LOAD build/brd4158a/bootloader/bootloader/early_init.o
+LOAD build/brd4158a/bootloader/bootloader/external_flash.o
+LOAD image/efr32xg13pxxxf512/bootloader.a
+
+.text           0x00000000     0x22f0
+ *(.Vectors)
+ .Vectors       0x00000000      0x400 image/efr32xg13pxxxf512/bootloader.a(bl_startup_efr32.o)
+                0x00000000                __vector_table__
+                0x00000400                __bl_version__ = .
+ *(.BootloaderVersion)
+ .BootloaderVersion
+                0x00000400        0x8 image/efr32xg13pxxxf512/bootloader.a(bl_startup_efr32.o)
+                0x00000400                __bootloader_version__
+ *(.romtext)
+ .romtext       0x00000408       0x94 image/efr32xg13pxxxf512/bootloader.a(bl_startup_efr32.o)
+                0x00000408                __startup__
+                0x00000470                __system_reset__
+ .romtext       0x0000049c      0x150 image/efr32xg13pxxxf512/bootloader.a(bl_start_v3.o)
+                0x0000049c                _bl_start
+ *(.text.*)
+ .text.early_init
+                0x000005ec        0x2 build/brd4158a/bootloader/bootloader/early_init.o
+                0x000005ec                early_init
+ .text.first_boot
+                0x000005ee        0x2 build/brd4158a/bootloader/bootloader/early_init.o
+                0x000005ee                first_boot
+ .text.externalFlash_init
+                0x000005f0        0x4 build/brd4158a/bootloader/bootloader/external_flash.o
+                0x000005f0                externalFlash_init
+ .text.externalFlash_startRead
+                0x000005f4        0x4 build/brd4158a/bootloader/bootloader/external_flash.o
+                0x000005f4                externalFlash_startRead
+ .text.externalFlash_startWrite
+                0x000005f8        0x4 build/brd4158a/bootloader/bootloader/external_flash.o
+                0x000005f8                externalFlash_startWrite
+ .text.externalFlash_startErase
+                0x000005fc        0x4 build/brd4158a/bootloader/bootloader/external_flash.o
+                0x000005fc                externalFlash_startErase
+ .text.externalFlash_isBusy
+                0x00000600        0x4 build/brd4158a/bootloader/bootloader/external_flash.o
+                0x00000600                externalFlash_isBusy
+ .text.externalFlash_getInfo
+                0x00000604        0x4 build/brd4158a/bootloader/bootloader/external_flash.o
+                0x00000604                externalFlash_getInfo
+ .text.Bootloader_allowFlashWrites
+                0x00000608       0x1c image/efr32xg13pxxxf512/bootloader.a(bl_start_v3.o)
+                0x00000608                Bootloader_allowFlashWrites
+ .text.isKeyValid
+                0x00000624       0x2a image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ *fill*         0x0000064e        0x2 
+ .text.setStatusAndReboot
+                0x00000650       0x28 image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ .text.puffReadOut
+                0x00000678       0x5c image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ .text.puffReadIn
+                0x000006d4       0x50 image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ .text.writeAndVerifyFlash
+                0x00000724       0x60 image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ .text.puffWrite
+                0x00000784       0x42 image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ *fill*         0x000007c6        0x2 
+ .text.processData
+                0x000007c8       0xb4 image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ .text.Bootloader_findVerifyScratchpad
+                0x0000087c      0x18c image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+                0x0000087c                Bootloader_findVerifyScratchpad
+ .text.Bootloader_eraseFlash
+                0x00000a08       0x54 image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+                0x00000a08                Bootloader_eraseFlash
+ .text.Bootloader_processScratchpad
+                0x00000a5c      0x1fc image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+                0x00000a5c                Bootloader_processScratchpad
+ .text.getAreaPtr
+                0x00000c58       0x24 image/efr32xg13pxxxf512/bootloader.a(memoryarea.o)
+ .text.MemoryArea_init
+                0x00000c7c       0x14 image/efr32xg13pxxxf512/bootloader.a(memoryarea.o)
+                0x00000c7c                MemoryArea_init
+ .text.MemoryArea_startRead
+                0x00000c90       0x44 image/efr32xg13pxxxf512/bootloader.a(memoryarea.o)
+                0x00000c90                MemoryArea_startRead
+ .text.MemoryArea_startWrite
+                0x00000cd4       0x44 image/efr32xg13pxxxf512/bootloader.a(memoryarea.o)
+                0x00000cd4                MemoryArea_startWrite
+ .text.MemoryArea_startErase
+                0x00000d18       0x46 image/efr32xg13pxxxf512/bootloader.a(memoryarea.o)
+                0x00000d18                MemoryArea_startErase
+ .text.MemoryArea_isBusy
+                0x00000d5e       0x22 image/efr32xg13pxxxf512/bootloader.a(memoryarea.o)
+                0x00000d5e                MemoryArea_isBusy
+ .text.MemoryArea_getAreaInfo
+                0x00000d80       0x74 image/efr32xg13pxxxf512/bootloader.a(memoryarea.o)
+                0x00000d80                MemoryArea_getAreaInfo
+ .text.MemoryArea_getAreaList
+                0x00000df4       0x30 image/efr32xg13pxxxf512/bootloader.a(memoryarea.o)
+                0x00000df4                MemoryArea_getAreaList
+ .text.MemoryArea_getIdfromType
+                0x00000e24       0x56 image/efr32xg13pxxxf512/bootloader.a(memoryarea.o)
+                0x00000e24                MemoryArea_getIdfromType
+ .text.MemoryArea_read
+                0x00000e7a       0x58 image/efr32xg13pxxxf512/bootloader.a(memoryarea.o)
+                0x00000e7a                MemoryArea_read
+ *fill*         0x00000ed2        0x2 
+ .text.MemoryArea_getAreaHeader
+                0x00000ed4       0x84 image/efr32xg13pxxxf512/bootloader.a(memoryarea.o)
+                0x00000ed4                MemoryArea_getAreaHeader
+ .text.MemoryArea_write_pages
+                0x00000f58       0xae image/efr32xg13pxxxf512/bootloader.a(memoryarea.o)
+                0x00000f58                MemoryArea_write_pages
+ .text.MemoryArea_erase
+                0x00001006       0x52 image/efr32xg13pxxxf512/bootloader.a(memoryarea.o)
+                0x00001006                MemoryArea_erase
+ .text.Scratchpad_clearWritePhase
+                0x00001058       0x24 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+ .text.update_area_info
+                0x0000107c       0x74 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+ .text.Scratchpad_getValidity
+                0x000010f0      0x130 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+                0x000010f0                Scratchpad_getValidity
+ .text.Scratchpad_init
+                0x00001220       0x9c image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+                0x00001220                Scratchpad_init
+ .text.Scratchpad_read
+                0x000012bc       0xf0 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+                0x000012bc                Scratchpad_read
+ .text.Scratchpad_clear
+                0x000013ac       0x84 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+                0x000013ac                Scratchpad_clear
+ .text.Scratchpad_begin
+                0x00001430       0x4c image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+                0x00001430                Scratchpad_begin
+ .text.Scratchpad_write
+                0x0000147c      0x1f0 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+                0x0000147c                Scratchpad_write
+ .text.Scratchpad_getInfo
+                0x0000166c       0x6c image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+                0x0000166c                Scratchpad_getInfo
+ .text.Scratchpad_setBootable
+                0x000016d8       0x60 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+                0x000016d8                Scratchpad_setBootable
+ .text.Scratchpad_setStatus
+                0x00001738       0x50 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+                0x00001738                Scratchpad_setStatus
+ .text.aes_omac1GenerateSubkey
+                0x00001788       0x26 image/efr32xg13pxxxf512/bootloader.a(aes.o)
+ .text.aes_setupStream
+                0x000017ae       0x28 image/efr32xg13pxxxf512/bootloader.a(aes.o)
+                0x000017ae                aes_setupStream
+ *fill*         0x000017d6        0x2 
+ .text.aes_initOmac1
+                0x000017d8       0x48 image/efr32xg13pxxxf512/bootloader.a(aes.o)
+                0x000017d8                aes_initOmac1
+ .text.Crc_addByte
+                0x00001820       0x1a image/efr32xg13pxxxf512/bootloader.a(crc.o)
+                0x00001820                Crc_addByte
+ .text.construct
+                0x0000183a       0x98 image/efr32xg13pxxxf512/bootloader.a(puff.o)
+ .text.bits     0x000018d2       0x46 image/efr32xg13pxxxf512/bootloader.a(puff.o)
+ .text.decode   0x00001918       0x96 image/efr32xg13pxxxf512/bootloader.a(puff.o)
+ *fill*         0x000019ae        0x2 
+ .text.codes    0x000019b0       0xd8 image/efr32xg13pxxxf512/bootloader.a(puff.o)
+ .text.dynamic  0x00001a88      0x188 image/efr32xg13pxxxf512/bootloader.a(puff.o)
+ .text.puff     0x00001c10      0x18c image/efr32xg13pxxxf512/bootloader.a(puff.o)
+                0x00001c10                puff
+ .text.SystemInit
+                0x00001d9c        0x2 image/efr32xg13pxxxf512/bootloader.a(system_efr32fg13p.o)
+                0x00001d9c                SystemInit
+ *fill*         0x00001d9e        0x2 
+ .text.aes_omac1
+                0x00001da0      0x14c image/efr32xg13pxxxf512/bootloader.a(aeshw.o)
+                0x00001da0                aes_omac1
+ .text.aes_initAfterBoot
+                0x00001eec       0x34 image/efr32xg13pxxxf512/bootloader.a(aeshw.o)
+                0x00001eec                aes_initAfterBoot
+ .text.aes_crypto128Ctr
+                0x00001f20       0xd4 image/efr32xg13pxxxf512/bootloader.a(aeshw.o)
+                0x00001f20                aes_crypto128Ctr
+ .text.Em_disableDeepSleep
+                0x00001ff4       0x28 image/efr32xg13pxxxf512/bootloader.a(energy_management.o)
+                0x00001ff4                Em_disableDeepSleep
+ .text.Em_enableDeepSleep
+                0x0000201c       0x2c image/efr32xg13pxxxf512/bootloader.a(energy_management.o)
+                0x0000201c                Em_enableDeepSleep
+ .text.internalFlash_init
+                0x00002048       0x18 image/efr32xg13pxxxf512/bootloader.a(internal_flash.o)
+                0x00002048                internalFlash_init
+ .text.internalFlash_startRead
+                0x00002060       0x14 image/efr32xg13pxxxf512/bootloader.a(internal_flash.o)
+                0x00002060                internalFlash_startRead
+ .text.internalFlash_isBusy
+                0x00002074        0x4 image/efr32xg13pxxxf512/bootloader.a(internal_flash.o)
+                0x00002074                internalFlash_isBusy
+ .text.internalFlash_getInfo
+                0x00002078       0x58 image/efr32xg13pxxxf512/bootloader.a(internal_flash.o)
+                0x00002078                internalFlash_getInfo
+ .text.memcmp   0x000020d0       0x1e c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memcmp.o)
+                0x000020d0                memcmp
+ .text.memcpy   0x000020ee       0x12 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memcpy-stub.o)
+                0x000020ee                memcpy
+ *(.text)
+ .text          0x00002100       0x1c c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-setjmp.o)
+                0x00002100                setjmp
+                0x0000210c                longjmp
+ *fill*         0x0000211c        0x4 
+ .text.__stub   0x00002120       0x20 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+ *(.v4_bx)
+ .v4_bx         0x00000000        0x0 linker stubs
+ *(.rodata.*)
+ .rodata.m_tag  0x00002140       0x14 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+ .rodata.m_scratchpad_services
+                0x00002154       0x1c image/efr32xg13pxxxf512/bootloader.a(bl_interface.o)
+                0x00002154                m_scratchpad_services
+ .rodata.m_memory_area_services
+                0x00002170       0x20 image/efr32xg13pxxxf512/bootloader.a(bl_interface.o)
+                0x00002170                m_memory_area_services
+ .rodata.m_bl_interface
+                0x00002190        0xc image/efr32xg13pxxxf512/bootloader.a(bl_interface.o)
+                0x00002190                m_bl_interface
+ .rodata.aes_plaintext_null
+                0x0000219c       0x10 image/efr32xg13pxxxf512/bootloader.a(aes.o)
+                0x0000219c                aes_plaintext_null
+ .rodata.dists.4767
+                0x000021ac       0x3c image/efr32xg13pxxxf512/bootloader.a(puff.o)
+ .rodata.dext.4768
+                0x000021e8       0x3c image/efr32xg13pxxxf512/bootloader.a(puff.o)
+ .rodata.order.4817
+                0x00002224       0x26 image/efr32xg13pxxxf512/bootloader.a(puff.o)
+ .rodata.lext.4766
+                0x0000224a       0x3a image/efr32xg13pxxxf512/bootloader.a(puff.o)
+ .rodata.lens.4765
+                0x00002284       0x3a image/efr32xg13pxxxf512/bootloader.a(puff.o)
+ *fill*         0x000022be        0x2 
+ .rodata.m_flash_info
+                0x000022c0       0x2c image/efr32xg13pxxxf512/bootloader.a(internal_flash.o)
+ *(.rodata)
+ *(.rodata1)
+ *(.crc_lut)
+                0x000022f0                . = ALIGN (0x8)
+ *fill*         0x000022ec        0x4 
+                0x000022f0                __etext = .
+                0x000022f0                __data_src_start__ = .
+
+.datastatic     0x20000000      0x120 load address 0x000022f0
+                0x20000000                __datastatic_start__ = .
+ *(.ramtext)
+ .ramtext       0x20000000      0x110 image/efr32xg13pxxxf512/bootloader.a(internal_flash.o)
+                0x20000000                internalFlash_startWrite
+                0x20000090                internalFlash_startErase
+ .ramtext.__stub
+                0x20000110       0x10 linker stubs
+ *memoryarea.o(.data* .data)
+ *scratchpad.o(.data* .data)
+ *internal_flash*.o(.data* .data)
+ *external_flash*.o(.data* .data)
+ *board/*/bootloader/*.o(.data* .data)
+                0x20000120                . = ALIGN (0x8)
+                0x20000120                __datastatic_end__ = .
+
+.bssstatic      0x20000120      0x108 load address 0x00002410
+                0x20000120                __bssstatic_start__ = .
+ *memoryarea.o(.bss.* .bss)
+ *scratchpad.o(.bss.* .bss)
+ .bss.m_write_total_num_bytes
+                0x20000120        0x4 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+ .bss.m_block   0x20000124       0x70 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+ .bss.m_area_start_address
+                0x20000194        0x4 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+ .bss.m_crc     0x20000198        0x4 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+ .bss.m_header_address
+                0x2000019c        0x4 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+ .bss.m_write_phase
+                0x200001a0        0x1 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+ *fill*         0x200001a1        0x3 
+ .bss.m_header_bytes
+                0x200001a4       0x10 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+ .bss.m_area_dedicated
+                0x200001b4        0x1 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+ .bss.m_scratchpad_valid
+                0x200001b5        0x1 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+ *fill*         0x200001b6        0x2 
+ .bss.m_write_page_size
+                0x200001b8        0x4 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+ .bss.m_write_seq
+                0x200001bc        0x1 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+ *fill*         0x200001bd        0x3 
+ .bss.m_write_next_start
+                0x200001c0        0x4 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+ .bss.m_tag_address
+                0x200001c4        0x4 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+ .bss.m_area_id
+                0x200001c8        0x4 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+ .bss.m_scratchpad_num_bytes
+                0x200001cc        0x4 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+ .bss.m_area_length
+                0x200001d0        0x4 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+ *internal_flash*.o(.bss* .bss)
+ *external_flash*.o(.bss* .bss)
+ *board/*/bootloader/*.o(.bss* .bss)
+ *(COMMON)
+ COMMON         0x200001d4       0x50 image/efr32xg13pxxxf512/bootloader.a(aes.o)
+                0x200001d4                aes_omac1_HL1
+                0x200001e4                aes_omac1_HL2
+                0x200001f4                aes_omac1_data
+ COMMON         0x20000224        0x4 image/efr32xg13pxxxf512/bootloader.a(energy_management.o)
+                0x20000224                em_disable_deep_sleep
+                0x20000228                . = ALIGN (0x8)
+                0x20000228                __bssstatic_end__ = .
+
+.data           0x20000400        0x8 load address 0x00002410
+                0x20000400                __data_start__ = .
+ *(.data.*)
+ .data.virgin.4778
+                0x20000400        0x4 image/efr32xg13pxxxf512/bootloader.a(puff.o)
+ *(.data)
+ *(.data1)
+                0x20000408                . = ALIGN (0x8)
+ *fill*         0x20000404        0x4 
+                0x20000408                __data_end__ = .
+
+.ram_crc        0x20000408        0x4 load address 0x00002418
+ .ram_crc       0x20000408        0x4 image/efr32xg13pxxxf512/bootloader.a(aeshw.o)
+
+.bss            0x2000040c     0x234c load address 0x0000241c
+                0x2000040c                __bss_start__ = .
+ *(.bss.*)
+ .bss.m_boot_settings
+                0x2000040c        0x4 image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ .bss.m_secure_header_address
+                0x20000410        0x4 image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ .bss.m_file_address
+                0x20000414        0x4 image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ .bss.m_num_file_bytes
+                0x20000418        0x4 image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ .bss.m_flash_page_buffer
+                0x2000041c     0x1000 image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ .bss.m_num_verify_errors
+                0x2000141c        0x4 image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ .bss.m_key_num
+                0x20001420        0x4 image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ .bss.m_aes_data_stream
+                0x20001424       0x30 image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ .bss.m_mic_bytes
+                0x20001454       0x10 image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ .bss.m_area_id
+                0x20001464        0x4 image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ .bss.m_mic_address
+                0x20001468        0x4 image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ .bss.m_auth_bytes_address
+                0x2000146c        0x4 image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ .bss.m_keys    0x20001470        0x4 image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ .bss.m_num_auth_bytes
+                0x20001474        0x4 image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ .bss.m_secure_header
+                0x20001478       0x10 image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ .bss.lencode.4783
+                0x20001488        0x8 image/efr32xg13pxxxf512/bootloader.a(puff.o)
+ .bss.distcode.4784
+                0x20001490        0x8 image/efr32xg13pxxxf512/bootloader.a(puff.o)
+ .bss.lencnt.4779
+                0x20001498       0x20 image/efr32xg13pxxxf512/bootloader.a(puff.o)
+ .bss.distsym.4782
+                0x200014b8       0x3c image/efr32xg13pxxxf512/bootloader.a(puff.o)
+ .bss.lensym.4780
+                0x200014f4      0x240 image/efr32xg13pxxxf512/bootloader.a(puff.o)
+ .bss.distcnt.4781
+                0x20001734       0x20 image/efr32xg13pxxxf512/bootloader.a(puff.o)
+ .bss.m_interrupt_mutex
+                0x20001754        0x4 image/efr32xg13pxxxf512/bootloader.a(interrupt.o)
+                0x20001754                m_interrupt_mutex
+ *(.bss)
+ .bss           0x20001758     0x1000 image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+                0x20002758                . = ALIGN (0x8)
+                0x20002758                __bss_end__ = .
+
+.blconfig       0x00003800      0x800
+                0x00003800                __blconfig_start__ = .
+                0x00004000                . = (. + 0x800)
+ *fill*         0x00003800      0x800 
+                0x00004000                __blconfig_end__ = .
+
+.lockbits       0x0fe04000      0x200
+ *(.lockbits)
+ .lockbits      0x0fe04000      0x200 image/efr32xg13pxxxf512/bootloader.a(bl_start_v3.o)
+                0x0fe04000                Bootloader_lockBits
+
+.stack_dummy
+ *(.stack*)
+                0x2000ffe8                __stack_top__ = (ORIGIN (RAM) + 0xfbe8)
+
+.invalid        0x00000000        0x0
+ *(.init)
+ *(.fini)
+ *(.preinit_array)
+ *(.init_array)
+ *(.fini_array)
+ *(.ctors)
+ *(.dtors)
+ *(.jcr)
+ *(.eh_frame)
+ *(.eh_frame_hdr)
+ *(.heap*)
+ *(.tbss)
+ *(.tdata)
+ *(.tdata1)
+ *(.got)
+ *(.got.plt)
+ *(.igot.plt)
+ .igot.plt      0x00000000        0x0 build/brd4158a/bootloader/bootloader/early_init.o
+ *(.iplt)
+ .iplt          0x00000000        0x0 build/brd4158a/bootloader/bootloader/early_init.o
+ *(.rel.dyn)
+ *(.rel.iplt)
+ .rel.iplt      0x00000000        0x0 build/brd4158a/bootloader/bootloader/early_init.o
+
+/DISCARD/
+ *(.ARM.extab)
+ *(.ARM.extab.*)
+ *(.ARM.exidx)
+ *(.ARM.exidx.*)
+START GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a
+LOAD c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libc_s.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libc_s.a
+END GROUP
+OUTPUT(build/brd4158a/bootloader/bootloader.elf elf32-littlearm)
+
+.debug_info     0x00000000     0xa63a
+ .debug_info    0x00000000       0x48 build/brd4158a/bootloader/bootloader/early_init.o
+ .debug_info    0x00000048      0x280 build/brd4158a/bootloader/bootloader/external_flash.o
+ .debug_info    0x000002c8       0x8f image/efr32xg13pxxxf512/bootloader.a(bl_startup_efr32.o)
+ .debug_info    0x00000357     0x15d7 image/efr32xg13pxxxf512/bootloader.a(bl_start_v3.o)
+ .debug_info    0x0000192e     0x17d2 image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ .debug_info    0x00003100      0xed2 image/efr32xg13pxxxf512/bootloader.a(memoryarea.o)
+ .debug_info    0x00003fd2     0x109c image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+ .debug_info    0x0000506e      0x7ad image/efr32xg13pxxxf512/bootloader.a(bl_interface.o)
+ .debug_info    0x0000581b      0x35c image/efr32xg13pxxxf512/bootloader.a(aes.o)
+ .debug_info    0x00005b77      0x238 image/efr32xg13pxxxf512/bootloader.a(crc.o)
+ .debug_info    0x00005daf      0xb4b image/efr32xg13pxxxf512/bootloader.a(puff.o)
+ .debug_info    0x000068fa      0x63a image/efr32xg13pxxxf512/bootloader.a(system_efr32fg13p.o)
+ .debug_info    0x00006f34     0x1184 image/efr32xg13pxxxf512/bootloader.a(aeshw.o)
+ .debug_info    0x000080b8     0x1026 image/efr32xg13pxxxf512/bootloader.a(energy_management.o)
+ .debug_info    0x000090de      0xd54 image/efr32xg13pxxxf512/bootloader.a(internal_flash.o)
+ .debug_info    0x00009e32      0x808 image/efr32xg13pxxxf512/bootloader.a(interrupt.o)
+
+.debug_abbrev   0x00000000     0x2030
+ .debug_abbrev  0x00000000       0x2c build/brd4158a/bootloader/bootloader/early_init.o
+ .debug_abbrev  0x0000002c       0xe1 build/brd4158a/bootloader/bootloader/external_flash.o
+ .debug_abbrev  0x0000010d       0x14 image/efr32xg13pxxxf512/bootloader.a(bl_startup_efr32.o)
+ .debug_abbrev  0x00000121      0x277 image/efr32xg13pxxxf512/bootloader.a(bl_start_v3.o)
+ .debug_abbrev  0x00000398      0x38d image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ .debug_abbrev  0x00000725      0x2c8 image/efr32xg13pxxxf512/bootloader.a(memoryarea.o)
+ .debug_abbrev  0x000009ed      0x2c7 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+ .debug_abbrev  0x00000cb4       0xf5 image/efr32xg13pxxxf512/bootloader.a(bl_interface.o)
+ .debug_abbrev  0x00000da9      0x1a9 image/efr32xg13pxxxf512/bootloader.a(aes.o)
+ .debug_abbrev  0x00000f52       0xc8 image/efr32xg13pxxxf512/bootloader.a(crc.o)
+ .debug_abbrev  0x0000101a      0x2da image/efr32xg13pxxxf512/bootloader.a(puff.o)
+ .debug_abbrev  0x000012f4      0x199 image/efr32xg13pxxxf512/bootloader.a(system_efr32fg13p.o)
+ .debug_abbrev  0x0000148d      0x2d1 image/efr32xg13pxxxf512/bootloader.a(aeshw.o)
+ .debug_abbrev  0x0000175e      0x370 image/efr32xg13pxxxf512/bootloader.a(energy_management.o)
+ .debug_abbrev  0x00001ace      0x31b image/efr32xg13pxxxf512/bootloader.a(internal_flash.o)
+ .debug_abbrev  0x00001de9      0x247 image/efr32xg13pxxxf512/bootloader.a(interrupt.o)
+
+.debug_aranges  0x00000000      0x470
+ .debug_aranges
+                0x00000000       0x28 build/brd4158a/bootloader/bootloader/early_init.o
+ .debug_aranges
+                0x00000028       0x48 build/brd4158a/bootloader/bootloader/external_flash.o
+ .debug_aranges
+                0x00000070       0x20 image/efr32xg13pxxxf512/bootloader.a(bl_startup_efr32.o)
+ .debug_aranges
+                0x00000090       0x28 image/efr32xg13pxxxf512/bootloader.a(bl_start_v3.o)
+ .debug_aranges
+                0x000000b8       0x68 image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ .debug_aranges
+                0x00000120       0x80 image/efr32xg13pxxxf512/bootloader.a(memoryarea.o)
+ .debug_aranges
+                0x000001a0       0x70 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+ .debug_aranges
+                0x00000210       0x18 image/efr32xg13pxxxf512/bootloader.a(bl_interface.o)
+ .debug_aranges
+                0x00000228       0x30 image/efr32xg13pxxxf512/bootloader.a(aes.o)
+ .debug_aranges
+                0x00000258       0x30 image/efr32xg13pxxxf512/bootloader.a(crc.o)
+ .debug_aranges
+                0x00000288       0x48 image/efr32xg13pxxxf512/bootloader.a(puff.o)
+ .debug_aranges
+                0x000002d0       0x68 image/efr32xg13pxxxf512/bootloader.a(system_efr32fg13p.o)
+ .debug_aranges
+                0x00000338       0x40 image/efr32xg13pxxxf512/bootloader.a(aeshw.o)
+ .debug_aranges
+                0x00000378       0x78 image/efr32xg13pxxxf512/bootloader.a(energy_management.o)
+ .debug_aranges
+                0x000003f0       0x48 image/efr32xg13pxxxf512/bootloader.a(internal_flash.o)
+ .debug_aranges
+                0x00000438       0x38 image/efr32xg13pxxxf512/bootloader.a(interrupt.o)
+
+.debug_ranges   0x00000000      0x5b8
+ .debug_ranges  0x00000000       0x18 build/brd4158a/bootloader/bootloader/early_init.o
+ .debug_ranges  0x00000018       0x38 build/brd4158a/bootloader/bootloader/external_flash.o
+ .debug_ranges  0x00000050       0x18 image/efr32xg13pxxxf512/bootloader.a(bl_start_v3.o)
+ .debug_ranges  0x00000068      0x120 image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ .debug_ranges  0x00000188       0x88 image/efr32xg13pxxxf512/bootloader.a(memoryarea.o)
+ .debug_ranges  0x00000210       0x90 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+ .debug_ranges  0x000002a0       0x20 image/efr32xg13pxxxf512/bootloader.a(aes.o)
+ .debug_ranges  0x000002c0       0x20 image/efr32xg13pxxxf512/bootloader.a(crc.o)
+ .debug_ranges  0x000002e0       0x68 image/efr32xg13pxxxf512/bootloader.a(puff.o)
+ .debug_ranges  0x00000348       0x58 image/efr32xg13pxxxf512/bootloader.a(system_efr32fg13p.o)
+ .debug_ranges  0x000003a0       0x48 image/efr32xg13pxxxf512/bootloader.a(aeshw.o)
+ .debug_ranges  0x000003e8       0xc8 image/efr32xg13pxxxf512/bootloader.a(energy_management.o)
+ .debug_ranges  0x000004b0       0xc8 image/efr32xg13pxxxf512/bootloader.a(internal_flash.o)
+ .debug_ranges  0x00000578       0x40 image/efr32xg13pxxxf512/bootloader.a(interrupt.o)
+
+.debug_line     0x00000000     0x2915
+ .debug_line    0x00000000       0x56 build/brd4158a/bootloader/bootloader/early_init.o
+ .debug_line    0x00000056      0x1df build/brd4158a/bootloader/bootloader/external_flash.o
+ .debug_line    0x00000235       0xa2 image/efr32xg13pxxxf512/bootloader.a(bl_startup_efr32.o)
+ .debug_line    0x000002d7      0x33e image/efr32xg13pxxxf512/bootloader.a(bl_start_v3.o)
+ .debug_line    0x00000615      0x4ad image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ .debug_line    0x00000ac2      0x3b3 image/efr32xg13pxxxf512/bootloader.a(memoryarea.o)
+ .debug_line    0x00000e75      0x40b image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+ .debug_line    0x00001280      0x147 image/efr32xg13pxxxf512/bootloader.a(bl_interface.o)
+ .debug_line    0x000013c7      0x17a image/efr32xg13pxxxf512/bootloader.a(aes.o)
+ .debug_line    0x00001541      0x12b image/efr32xg13pxxxf512/bootloader.a(crc.o)
+ .debug_line    0x0000166c      0x36d image/efr32xg13pxxxf512/bootloader.a(puff.o)
+ .debug_line    0x000019d9      0x1e5 image/efr32xg13pxxxf512/bootloader.a(system_efr32fg13p.o)
+ .debug_line    0x00001bbe      0x35a image/efr32xg13pxxxf512/bootloader.a(aeshw.o)
+ .debug_line    0x00001f18      0x410 image/efr32xg13pxxxf512/bootloader.a(energy_management.o)
+ .debug_line    0x00002328      0x38d image/efr32xg13pxxxf512/bootloader.a(internal_flash.o)
+ .debug_line    0x000026b5      0x260 image/efr32xg13pxxxf512/bootloader.a(interrupt.o)
+
+.debug_str      0x00000000     0x2c95
+ .debug_str     0x00000000      0x144 build/brd4158a/bootloader/bootloader/early_init.o
+ .debug_str     0x00000144      0x254 build/brd4158a/bootloader/bootloader/external_flash.o
+                                0x3c9 (size before relaxing)
+ .debug_str     0x00000398      0xf28 image/efr32xg13pxxxf512/bootloader.a(bl_start_v3.o)
+                               0x120e (size before relaxing)
+ .debug_str     0x000012c0      0x770 image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+                                0xe61 (size before relaxing)
+ .debug_str     0x00001a30      0x1e9 image/efr32xg13pxxxf512/bootloader.a(memoryarea.o)
+                                0x7f8 (size before relaxing)
+ .debug_str     0x00001c19      0x2ac image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+                                0xc7e (size before relaxing)
+ .debug_str     0x00001ec5       0x58 image/efr32xg13pxxxf512/bootloader.a(bl_interface.o)
+                                0x965 (size before relaxing)
+ .debug_str     0x00001f1d       0xcf image/efr32xg13pxxxf512/bootloader.a(aes.o)
+                                0x2fb (size before relaxing)
+ .debug_str     0x00001fec       0x32 image/efr32xg13pxxxf512/bootloader.a(crc.o)
+                                0x1e1 (size before relaxing)
+ .debug_str     0x0000201e      0x121 image/efr32xg13pxxxf512/bootloader.a(puff.o)
+                                0x332 (size before relaxing)
+ .debug_str     0x0000213f      0x130 image/efr32xg13pxxxf512/bootloader.a(system_efr32fg13p.o)
+                                0x5a0 (size before relaxing)
+ .debug_str     0x0000226f      0x234 image/efr32xg13pxxxf512/bootloader.a(aeshw.o)
+                                0xb2b (size before relaxing)
+ .debug_str     0x000024a3      0x3d5 image/efr32xg13pxxxf512/bootloader.a(energy_management.o)
+                                0x911 (size before relaxing)
+ .debug_str     0x00002878       0xd7 image/efr32xg13pxxxf512/bootloader.a(internal_flash.o)
+                                0x926 (size before relaxing)
+ .debug_str     0x0000294f      0x346 image/efr32xg13pxxxf512/bootloader.a(interrupt.o)
+                                0x5ee (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 build/brd4158a/bootloader/bootloader/early_init.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 build/brd4158a/bootloader/bootloader/external_flash.o
+ .comment       0x00000000       0x71 image/efr32xg13pxxxf512/bootloader.a(bl_start_v3.o)
+ .comment       0x00000000       0x71 image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ .comment       0x00000000       0x71 image/efr32xg13pxxxf512/bootloader.a(memoryarea.o)
+ .comment       0x00000000       0x71 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+ .comment       0x00000000       0x71 image/efr32xg13pxxxf512/bootloader.a(bl_interface.o)
+ .comment       0x00000000       0x71 image/efr32xg13pxxxf512/bootloader.a(aes.o)
+ .comment       0x00000000       0x71 image/efr32xg13pxxxf512/bootloader.a(crc.o)
+ .comment       0x00000000       0x71 image/efr32xg13pxxxf512/bootloader.a(puff.o)
+ .comment       0x00000000       0x71 image/efr32xg13pxxxf512/bootloader.a(system_efr32fg13p.o)
+ .comment       0x00000000       0x71 image/efr32xg13pxxxf512/bootloader.a(aeshw.o)
+ .comment       0x00000000       0x71 image/efr32xg13pxxxf512/bootloader.a(energy_management.o)
+ .comment       0x00000000       0x71 image/efr32xg13pxxxf512/bootloader.a(internal_flash.o)
+ .comment       0x00000000       0x71 image/efr32xg13pxxxf512/bootloader.a(interrupt.o)
+
+.ARM.attributes
+                0x00000000       0x2c
+ .ARM.attributes
+                0x00000000       0x2e build/brd4158a/bootloader/bootloader/early_init.o
+ .ARM.attributes
+                0x0000002e       0x2e build/brd4158a/bootloader/bootloader/external_flash.o
+ .ARM.attributes
+                0x0000005c       0x1c image/efr32xg13pxxxf512/bootloader.a(bl_startup_efr32.o)
+ .ARM.attributes
+                0x00000078       0x33 image/efr32xg13pxxxf512/bootloader.a(bl_start_v3.o)
+ .ARM.attributes
+                0x000000ab       0x33 image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ .ARM.attributes
+                0x000000de       0x33 image/efr32xg13pxxxf512/bootloader.a(memoryarea.o)
+ .ARM.attributes
+                0x00000111       0x33 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+ .ARM.attributes
+                0x00000144       0x33 image/efr32xg13pxxxf512/bootloader.a(bl_interface.o)
+ .ARM.attributes
+                0x00000177       0x33 image/efr32xg13pxxxf512/bootloader.a(aes.o)
+ .ARM.attributes
+                0x000001aa       0x33 image/efr32xg13pxxxf512/bootloader.a(crc.o)
+ .ARM.attributes
+                0x000001dd       0x33 image/efr32xg13pxxxf512/bootloader.a(puff.o)
+ .ARM.attributes
+                0x00000210       0x33 image/efr32xg13pxxxf512/bootloader.a(system_efr32fg13p.o)
+ .ARM.attributes
+                0x00000243       0x33 image/efr32xg13pxxxf512/bootloader.a(aeshw.o)
+ .ARM.attributes
+                0x00000276       0x33 image/efr32xg13pxxxf512/bootloader.a(energy_management.o)
+ .ARM.attributes
+                0x000002a9       0x33 image/efr32xg13pxxxf512/bootloader.a(internal_flash.o)
+ .ARM.attributes
+                0x000002dc       0x33 image/efr32xg13pxxxf512/bootloader.a(interrupt.o)
+ .ARM.attributes
+                0x0000030f       0x2e c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memcmp.o)
+ .ARM.attributes
+                0x0000033d       0x2e c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x0000036b       0x1c c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-setjmp.o)
+
+.debug_frame    0x00000000      0xa64
+ .debug_frame   0x00000000       0x30 build/brd4158a/bootloader/bootloader/early_init.o
+ .debug_frame   0x00000030       0x70 build/brd4158a/bootloader/bootloader/external_flash.o
+ .debug_frame   0x000000a0       0x38 image/efr32xg13pxxxf512/bootloader.a(bl_start_v3.o)
+ .debug_frame   0x000000d8      0x150 image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ .debug_frame   0x00000228      0x198 image/efr32xg13pxxxf512/bootloader.a(memoryarea.o)
+ .debug_frame   0x000003c0      0x168 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+ .debug_frame   0x00000528       0x60 image/efr32xg13pxxxf512/bootloader.a(aes.o)
+ .debug_frame   0x00000588       0x58 image/efr32xg13pxxxf512/bootloader.a(crc.o)
+ .debug_frame   0x000005e0       0xe4 image/efr32xg13pxxxf512/bootloader.a(puff.o)
+ .debug_frame   0x000006c4       0xb8 image/efr32xg13pxxxf512/bootloader.a(system_efr32fg13p.o)
+ .debug_frame   0x0000077c       0x94 image/efr32xg13pxxxf512/bootloader.a(aeshw.o)
+ .debug_frame   0x00000810       0xf8 image/efr32xg13pxxxf512/bootloader.a(energy_management.o)
+ .debug_frame   0x00000908       0xa8 image/efr32xg13pxxxf512/bootloader.a(internal_flash.o)
+ .debug_frame   0x000009b0       0x60 image/efr32xg13pxxxf512/bootloader.a(interrupt.o)
+ .debug_frame   0x00000a10       0x2c c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memcmp.o)
+ .debug_frame   0x00000a3c       0x28 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memcpy-stub.o)
+
+.debug_loc      0x00000000     0x33ae
+ .debug_loc     0x00000000       0x84 build/brd4158a/bootloader/bootloader/external_flash.o
+ .debug_loc     0x00000084      0x118 image/efr32xg13pxxxf512/bootloader.a(bl_start_v3.o)
+ .debug_loc     0x0000019c      0x808 image/efr32xg13pxxxf512/bootloader.a(bootloader_v3.o)
+ .debug_loc     0x000009a4      0xb51 image/efr32xg13pxxxf512/bootloader.a(memoryarea.o)
+ .debug_loc     0x000014f5      0x6a9 image/efr32xg13pxxxf512/bootloader.a(scratchpad.o)
+ .debug_loc     0x00001b9e       0xf0 image/efr32xg13pxxxf512/bootloader.a(aes.o)
+ .debug_loc     0x00001c8e      0x212 image/efr32xg13pxxxf512/bootloader.a(crc.o)
+ .debug_loc     0x00001ea0      0x923 image/efr32xg13pxxxf512/bootloader.a(puff.o)
+ .debug_loc     0x000027c3       0x93 image/efr32xg13pxxxf512/bootloader.a(system_efr32fg13p.o)
+ .debug_loc     0x00002856      0x3f6 image/efr32xg13pxxxf512/bootloader.a(aeshw.o)
+ .debug_loc     0x00002c4c      0x2d4 image/efr32xg13pxxxf512/bootloader.a(energy_management.o)
+ .debug_loc     0x00002f20      0x3a1 image/efr32xg13pxxxf512/bootloader.a(internal_flash.o)
+ .debug_loc     0x000032c1       0xed image/efr32xg13pxxxf512/bootloader.a(interrupt.o)

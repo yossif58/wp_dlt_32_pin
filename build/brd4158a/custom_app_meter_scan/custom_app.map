@@ -1,0 +1,1113 @@
+Archive member included because of file (symbol)
+
+c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(_aeabi_ldivmod.o)
+                              build/brd4158a/custom_app/source/custom_app/meter/utils.o (__aeabi_ldivmod)
+c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(bpabi.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(_aeabi_ldivmod.o) (__gnu_ldivmod_helper)
+c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(_dvmd_tls.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(_aeabi_ldivmod.o) (__aeabi_ldiv0)
+c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(_divdi3.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(bpabi.o) (__divdi3)
+c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(_udivdi3.o)
+                              c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(bpabi.o) (__udivdi3)
+c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memcmp.o)
+                              build/brd4158a/custom_app/source/custom_app/meter/DCUPush.o (memcmp)
+c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memcpy-stub.o)
+                              build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o (memcpy)
+c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memset.o)
+                              build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o (memset)
+c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-strcat.o)
+                              build/brd4158a/custom_app/source/custom_app/meter/MeterProtocol.o (strcat)
+c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-strcpy.o)
+                              build/brd4158a/custom_app/source/custom_app/meter/MeterProtocol.o (strcpy)
+c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-strlen.o)
+                              build/brd4158a/custom_app/source/custom_app/meter/utils.o (strlen)
+
+Allocating common symbols
+Common symbol       size              file
+
+Result              0x1               build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+alrmStatus          0x1               build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+loggerIndex         0x1               build/brd4158a/custom_app/source/custom_app/meter/logger.o
+TmpTxBuf            0xff              build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+led_state           0x1               build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+appStatus           0x2               build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+bShipmentCntr       0x1               build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+ReconfigureNode     0x1               build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+NodeType            0x1               build/brd4158a/custom_app/source/custom_app/meter/logger.o
+AlertCount          0x2               build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+EMConfigMacADDR0    0x6               build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+rx_buffer           0xff              build/brd4158a/custom_app/source/custom_app/meter/uartdlt.o
+DltRxTimeout        0x4               build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+WATER_HOUR          0x4               build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+TmpLoggerIndex      0x2               build/brd4158a/custom_app/source/custom_app/meter/logger.o
+WaterLogger         0xc0              build/brd4158a/custom_app/source/custom_app/meter/logger.o
+divFactor           0x4               build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+LastConsumption     0x4               build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+LastShipmentCount   0x2               build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+WaterTickCubicUnits
+                    0x4               build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+m_escaped           0x1               build/brd4158a/custom_app/source/custom_app/meter/uartdlt.o
+TmpLoggerItem       0x8               build/brd4158a/custom_app/source/custom_app/meter/logger.o
+TmpTxsizeBuf        0x4               build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+tamperSt            0x1               build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+LCD_WATER           0x8               build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+BACK_FLOW           0x4               build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+SWdivIndex          0x1               build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+DisplayState        0x1               build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+LastLoggerIndexSend
+                    0x1               build/brd4158a/custom_app/source/custom_app/meter/logger.o
+m_timeout           0x4               build/brd4158a/custom_app/source/custom_app/meter/uartdlt.o
+bufout              0x100             build/brd4158a/custom_app/source/custom_app/app.o
+rx_buffer_idx       0x4               build/brd4158a/custom_app/source/custom_app/meter/uartdlt.o
+WATER_VOL           0x4               build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+sMyConfig           0x16              build/brd4158a/custom_app/source/custom_app/meter/logger.o
+SWunitType          0x1               build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+LastAlertCount      0x2               build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+OldSensorPort       0x1               build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+LastCheckTime       0x4               build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+WaterTickTenth      0x4               build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+
+Discarded input sections
+
+ .text          0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .data          0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .bss           0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .text.GPIO_EVEN_IRQHandler
+                0x00000000       0x4c build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .text.GPIO_ODD_IRQHandler
+                0x00000000       0x54 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .text.Pulser2_gpio_isr
+                0x00000000       0x28 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .text.Pulser1_gpio_isr
+                0x00000000       0x28 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .text.Wakeup_pinInit
+                0x00000000       0x70 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .text.Wakeup_off
+                0x00000000       0x34 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .text.Wakeup_enableIrq
+                0x00000000        0xc build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .text.Wakeup_disableIrq
+                0x00000000        0xc build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .text.Wakeup_clearIrq
+                0x00000000       0x10 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .text.Wakeup_setEdge
+                0x00000000       0x18 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .text.pulser1_enableIrq
+                0x00000000        0xc build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .text.pulser2_enableIrq
+                0x00000000        0xc build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .text.pulser2_disableIrq
+                0x00000000        0xc build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .text.pulser1_disableIrq
+                0x00000000        0xc build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .text.pulser1_clearIrq
+                0x00000000       0x10 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .text.pulser2_clearIrq
+                0x00000000       0x10 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .text.pulser_pinInit
+                0x00000000       0x98 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .text.pulser_setEdge
+                0x00000000       0x20 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .text.Pulser_init
+                0x00000000       0x68 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .bss.m_even_callbacks
+                0x00000000       0x20 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .bss.m_odd_callbacks
+                0x00000000       0x20 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .debug_info    0x00000000     0x10c5 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .debug_abbrev  0x00000000      0x336 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .debug_loc     0x00000000      0x287 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .debug_aranges
+                0x00000000       0xb0 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .debug_ranges  0x00000000      0x100 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .debug_line    0x00000000      0x540 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .debug_str     0x00000000      0xb7f build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .comment       0x00000000       0x71 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .ARM.attributes
+                0x00000000       0x2e build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .debug_frame   0x00000000      0x198 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ .text          0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/io.o
+ .data          0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/io.o
+ .bss           0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/io.o
+ .text.Io_enableUartIrq
+                0x00000000       0x14 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/io.o
+ .text.Io_setUartIrq
+                0x00000000       0x10 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/io.o
+ .text.Io_clearUartIrq
+                0x00000000       0x10 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/io.o
+ .text.Io_setModeDisabled
+                0x00000000       0x10 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/io.o
+ .text          0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/meter/utils.o
+ .data          0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/meter/utils.o
+ .bss           0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/meter/utils.o
+ .text.ToUpperCase
+                0x00000000        0xc build/brd4158a/custom_app/source/custom_app/meter/utils.o
+ .text.reverse  0x00000000       0x3a build/brd4158a/custom_app/source/custom_app/meter/utils.o
+ .text.i32toa   0x00000000       0x28 build/brd4158a/custom_app/source/custom_app/meter/utils.o
+ .text.m_atoi   0x00000000       0x16 build/brd4158a/custom_app/source/custom_app/meter/utils.o
+ .text.ConvertHex2BCD
+                0x00000000       0x1a build/brd4158a/custom_app/source/custom_app/meter/utils.o
+ .text.calcCS   0x00000000       0x1a build/brd4158a/custom_app/source/custom_app/meter/utils.o
+ .text.ConvertBinToAscii
+                0x00000000       0xb0 build/brd4158a/custom_app/source/custom_app/meter/utils.o
+ .rodata.HexMapL
+                0x00000000       0x10 build/brd4158a/custom_app/source/custom_app/meter/utils.o
+ .text          0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/meter/logger.o
+ .data          0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/meter/logger.o
+ .bss           0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/meter/logger.o
+ .text.AddItem2Logger
+                0x00000000       0x78 build/brd4158a/custom_app/source/custom_app/meter/logger.o
+ .text.GetUnreadRecordFromLogger
+                0x00000000       0x30 build/brd4158a/custom_app/source/custom_app/meter/logger.o
+ .text.MarkReadItem
+                0x00000000       0x24 build/brd4158a/custom_app/source/custom_app/meter/logger.o
+ .text.MarkUnReadItem
+                0x00000000       0x24 build/brd4158a/custom_app/source/custom_app/meter/logger.o
+ .text.InitWaterLogger
+                0x00000000       0x18 build/brd4158a/custom_app/source/custom_app/meter/logger.o
+ .text.LoggerAckMsg
+                0x00000000       0x1c build/brd4158a/custom_app/source/custom_app/meter/logger.o
+ .text.ReadLoggerProcess
+                0x00000000       0x24 build/brd4158a/custom_app/source/custom_app/meter/logger.o
+ .bss.EEpromlogger_index
+                0x00000000        0x2 build/brd4158a/custom_app/source/custom_app/meter/logger.o
+ .text          0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+ .data          0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+ .bss           0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+ .text.KeypadSendWriteDltMsg
+                0x00000000       0xd0 build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+ .text.CovertBcd2Add
+                0x00000000       0x42 build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+ .text.DCUSendReadDltMsg2Meter
+                0x00000000       0xcc build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+ .rodata.DLTPassUser
+                0x00000000        0x8 build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+ .text          0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/meter/uartdlt.o
+ .data          0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/meter/uartdlt.o
+ .bss           0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/meter/uartdlt.o
+ .text          0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/meter/persistent.o
+ .data          0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/meter/persistent.o
+ .bss           0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/meter/persistent.o
+ .text.write_image
+                0x00000000       0x18 build/brd4158a/custom_app/source/custom_app/meter/persistent.o
+ .text.update_image
+                0x00000000       0x2c build/brd4158a/custom_app/source/custom_app/meter/persistent.o
+ .text.Persistent_getAutostart
+                0x00000000       0x1c build/brd4158a/custom_app/source/custom_app/meter/persistent.o
+ .text.Persistent_getaExtendedAddress
+                0x00000000       0x18 build/brd4158a/custom_app/source/custom_app/meter/persistent.o
+ .text.Persistent_getConsumtionMeterValve
+                0x00000000       0x1c build/brd4158a/custom_app/source/custom_app/meter/persistent.o
+ .text.Persistent_setAutostart
+                0x00000000       0x1c build/brd4158a/custom_app/source/custom_app/meter/persistent.o
+ .text.Persistent_setaExtendedAddress
+                0x00000000       0x24 build/brd4158a/custom_app/source/custom_app/meter/persistent.o
+ .text.Persistent_setConsumtionMeterValve
+                0x00000000       0x24 build/brd4158a/custom_app/source/custom_app/meter/persistent.o
+ .bss.m_persistent_valid
+                0x00000000        0x1 build/brd4158a/custom_app/source/custom_app/meter/persistent.o
+ .bss.m_persistent_image
+                0x00000000        0xe build/brd4158a/custom_app/source/custom_app/meter/persistent.o
+ .debug_info    0x00000000      0x44c build/brd4158a/custom_app/source/custom_app/meter/persistent.o
+ .debug_abbrev  0x00000000      0x165 build/brd4158a/custom_app/source/custom_app/meter/persistent.o
+ .debug_loc     0x00000000      0x1d6 build/brd4158a/custom_app/source/custom_app/meter/persistent.o
+ .debug_aranges
+                0x00000000       0x58 build/brd4158a/custom_app/source/custom_app/meter/persistent.o
+ .debug_ranges  0x00000000       0x48 build/brd4158a/custom_app/source/custom_app/meter/persistent.o
+ .debug_line    0x00000000      0x242 build/brd4158a/custom_app/source/custom_app/meter/persistent.o
+ .debug_str     0x00000000      0x4d1 build/brd4158a/custom_app/source/custom_app/meter/persistent.o
+ .comment       0x00000000       0x71 build/brd4158a/custom_app/source/custom_app/meter/persistent.o
+ .ARM.attributes
+                0x00000000       0x2e build/brd4158a/custom_app/source/custom_app/meter/persistent.o
+ .debug_frame   0x00000000       0xd8 build/brd4158a/custom_app/source/custom_app/meter/persistent.o
+ .text          0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+ .data          0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+ .bss           0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+ .text.CheckWaterAlarms
+                0x00000000       0x84 build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+ .text.ResetWaterStatuses
+                0x00000000       0x78 build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+ .text.InitWaterAlarms
+                0x00000000       0x70 build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+ .text.get_water_ticks
+                0x00000000       0x10 build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+ .text.IncWaterTick
+                0x00000000       0x28 build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+ .text.checktamper_port
+                0x00000000        0x4 build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+ .bss.leak1HourArrayConsumptionIndex
+                0x00000000        0x2 build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+ .bss.leak24HourArrayConsumption
+                0x00000000       0x30 build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+ .bss.leakTimePeriodCntr
+                0x00000000        0x2 build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+ .bss.leak6HourArrayConsumption
+                0x00000000        0xc build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+ .bss.tamperTime
+                0x00000000        0x1 build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+ .bss.leak1CurrentHourConsumption
+                0x00000000        0x2 build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+ .debug_info    0x00000000      0x80d build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+ .debug_abbrev  0x00000000      0x23d build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+ .debug_loc     0x00000000      0x149 build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+ .debug_aranges
+                0x00000000       0x48 build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+ .debug_ranges  0x00000000       0x38 build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+ .debug_line    0x00000000      0x1f0 build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+ .debug_str     0x00000000      0x7e8 build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+ .comment       0x00000000       0x71 build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+ .ARM.attributes
+                0x00000000       0x2e build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+ .debug_frame   0x00000000       0x90 build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+ COMMON         0x00000000       0x44 build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+ .text          0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/meter/MeterProtocol.o
+ .data          0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/meter/MeterProtocol.o
+ .bss           0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/meter/MeterProtocol.o
+ .text.SendPeriodicMsg
+                0x00000000       0x98 build/brd4158a/custom_app/source/custom_app/meter/MeterProtocol.o
+ .bss.MsgTxId   0x00000000        0x4 build/brd4158a/custom_app/source/custom_app/meter/MeterProtocol.o
+ .rodata.str1.1
+                0x00000000       0x26 build/brd4158a/custom_app/source/custom_app/meter/MeterProtocol.o
+ .text          0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/meter/metervalve.o
+ .data          0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/meter/metervalve.o
+ .bss           0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/meter/metervalve.o
+ .debug_info    0x00000000       0xa0 build/brd4158a/custom_app/source/custom_app/meter/metervalve.o
+ .debug_abbrev  0x00000000       0x4b build/brd4158a/custom_app/source/custom_app/meter/metervalve.o
+ .debug_aranges
+                0x00000000       0x18 build/brd4158a/custom_app/source/custom_app/meter/metervalve.o
+ .debug_line    0x00000000      0x105 build/brd4158a/custom_app/source/custom_app/meter/metervalve.o
+ .debug_str     0x00000000      0x1d9 build/brd4158a/custom_app/source/custom_app/meter/metervalve.o
+ .comment       0x00000000       0x71 build/brd4158a/custom_app/source/custom_app/meter/metervalve.o
+ .ARM.attributes
+                0x00000000       0x2e build/brd4158a/custom_app/source/custom_app/meter/metervalve.o
+ .text          0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/meter/MeterPush.o
+ .data          0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/meter/MeterPush.o
+ .bss           0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/meter/MeterPush.o
+ .text          0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/meter/DCUPush.o
+ .data          0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/meter/DCUPush.o
+ .bss           0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/meter/DCUPush.o
+ .text.DCUPushTask
+                0x00000000        0x2 build/brd4158a/custom_app/source/custom_app/meter/DCUPush.o
+ .text.InitMeterlogger
+                0x00000000       0x1c build/brd4158a/custom_app/source/custom_app/meter/DCUPush.o
+ .text.SearchExistMeterLocation
+                0x00000000       0x30 build/brd4158a/custom_app/source/custom_app/meter/DCUPush.o
+ .text.WriteNewMeterRecord
+                0x00000000       0x74 build/brd4158a/custom_app/source/custom_app/meter/DCUPush.o
+ .text.SearchExistRecordLocation
+                0x00000000       0x3c build/brd4158a/custom_app/source/custom_app/meter/DCUPush.o
+ .text.PrepareResFromLogger
+                0x00000000       0x50 build/brd4158a/custom_app/source/custom_app/meter/DCUPush.o
+ .bss.MeterLoger
+                0x00000000     0x3462 build/brd4158a/custom_app/source/custom_app/meter/DCUPush.o
+ .debug_info    0x00000000      0x6a1 build/brd4158a/custom_app/source/custom_app/meter/DCUPush.o
+ .debug_abbrev  0x00000000      0x194 build/brd4158a/custom_app/source/custom_app/meter/DCUPush.o
+ .debug_loc     0x00000000      0x336 build/brd4158a/custom_app/source/custom_app/meter/DCUPush.o
+ .debug_aranges
+                0x00000000       0x48 build/brd4158a/custom_app/source/custom_app/meter/DCUPush.o
+ .debug_ranges  0x00000000       0x38 build/brd4158a/custom_app/source/custom_app/meter/DCUPush.o
+ .debug_line    0x00000000      0x24a build/brd4158a/custom_app/source/custom_app/meter/DCUPush.o
+ .debug_str     0x00000000      0x9c4 build/brd4158a/custom_app/source/custom_app/meter/DCUPush.o
+ .comment       0x00000000       0x71 build/brd4158a/custom_app/source/custom_app/meter/DCUPush.o
+ .ARM.attributes
+                0x00000000       0x2e build/brd4158a/custom_app/source/custom_app/meter/DCUPush.o
+ .debug_frame   0x00000000       0xa8 build/brd4158a/custom_app/source/custom_app/meter/DCUPush.o
+ .text          0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/led.o
+ .data          0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/led.o
+ .bss           0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/led.o
+ .text.toggle_led
+                0x00000000       0x14 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/led.o
+ .text          0x00000000        0x0 build/brd4158a/custom_app/util/crc.o
+ .data          0x00000000        0x0 build/brd4158a/custom_app/util/crc.o
+ .bss           0x00000000        0x0 build/brd4158a/custom_app/util/crc.o
+ .text.Crc_addByte
+                0x00000000       0x18 build/brd4158a/custom_app/util/crc.o
+ .text.Crc_fromBuffer
+                0x00000000       0x2c build/brd4158a/custom_app/util/crc.o
+ .text.Crc_fromBuffer32
+                0x00000000       0x64 build/brd4158a/custom_app/util/crc.o
+ .rodata.crc_ccitt_lut
+                0x00000000      0x200 build/brd4158a/custom_app/util/crc.o
+ .debug_info    0x00000000      0x21b build/brd4158a/custom_app/util/crc.o
+ .debug_abbrev  0x00000000       0xdf build/brd4158a/custom_app/util/crc.o
+ .debug_loc     0x00000000      0x24c build/brd4158a/custom_app/util/crc.o
+ .debug_aranges
+                0x00000000       0x30 build/brd4158a/custom_app/util/crc.o
+ .debug_ranges  0x00000000       0x38 build/brd4158a/custom_app/util/crc.o
+ .debug_line    0x00000000      0x17c build/brd4158a/custom_app/util/crc.o
+ .debug_str     0x00000000      0x214 build/brd4158a/custom_app/util/crc.o
+ .comment       0x00000000       0x71 build/brd4158a/custom_app/util/crc.o
+ .ARM.attributes
+                0x00000000       0x2e build/brd4158a/custom_app/util/crc.o
+ .debug_frame   0x00000000       0x58 build/brd4158a/custom_app/util/crc.o
+ .text          0x00000000        0x0 build/brd4158a/custom_app/util/sl_list.o
+ .data          0x00000000        0x0 build/brd4158a/custom_app/util/sl_list.o
+ .bss           0x00000000        0x0 build/brd4158a/custom_app/util/sl_list.o
+ .text.sl_list_init
+                0x00000000        0xa build/brd4158a/custom_app/util/sl_list.o
+ .text.sl_list_next
+                0x00000000        0x4 build/brd4158a/custom_app/util/sl_list.o
+ .text.sl_list_push_back
+                0x00000000       0x1a build/brd4158a/custom_app/util/sl_list.o
+ .text.sl_list_push_front
+                0x00000000       0x14 build/brd4158a/custom_app/util/sl_list.o
+ .text.sl_list_push_before
+                0x00000000       0x1a build/brd4158a/custom_app/util/sl_list.o
+ .text.sl_list_pop_back
+                0x00000000       0x32 build/brd4158a/custom_app/util/sl_list.o
+ .text.sl_list_pop_front
+                0x00000000       0x1a build/brd4158a/custom_app/util/sl_list.o
+ .text.sl_list_remove
+                0x00000000       0x30 build/brd4158a/custom_app/util/sl_list.o
+ .text.sl_list_pop
+                0x00000000        0xc build/brd4158a/custom_app/util/sl_list.o
+ .text.sl_list_at
+                0x00000000        0xe build/brd4158a/custom_app/util/sl_list.o
+ .text.sl_list_contains
+                0x00000000        0xe build/brd4158a/custom_app/util/sl_list.o
+ .text.sl_list_search
+                0x00000000       0x1a build/brd4158a/custom_app/util/sl_list.o
+ .text.sl_list_swap
+                0x00000000       0x2e build/brd4158a/custom_app/util/sl_list.o
+ .debug_info    0x00000000      0x4fc build/brd4158a/custom_app/util/sl_list.o
+ .debug_abbrev  0x00000000      0x1ae build/brd4158a/custom_app/util/sl_list.o
+ .debug_loc     0x00000000      0x360 build/brd4158a/custom_app/util/sl_list.o
+ .debug_aranges
+                0x00000000       0x80 build/brd4158a/custom_app/util/sl_list.o
+ .debug_ranges  0x00000000       0x70 build/brd4158a/custom_app/util/sl_list.o
+ .debug_line    0x00000000      0x268 build/brd4158a/custom_app/util/sl_list.o
+ .debug_str     0x00000000      0x2e3 build/brd4158a/custom_app/util/sl_list.o
+ .comment       0x00000000       0x71 build/brd4158a/custom_app/util/sl_list.o
+ .ARM.attributes
+                0x00000000       0x2e build/brd4158a/custom_app/util/sl_list.o
+ .debug_frame   0x00000000      0x114 build/brd4158a/custom_app/util/sl_list.o
+ .text          0x00000000        0x0 build/brd4158a/custom_app/util/util.o
+ .data          0x00000000        0x0 build/brd4158a/custom_app/util/util.o
+ .bss           0x00000000        0x0 build/brd4158a/custom_app/util/util.o
+ .text.Util_isLtUint32
+                0x00000000        0x6 build/brd4158a/custom_app/util/util.o
+ .text.Util_isSmallest
+                0x00000000       0x10 build/brd4158a/custom_app/util/util.o
+ .text.Util_inBetween
+                0x00000000       0x12 build/brd4158a/custom_app/util/util.o
+ .text.Util_bitCountU8
+                0x00000000       0x14 build/brd4158a/custom_app/util/util.o
+ .debug_info    0x00000000      0x23f build/brd4158a/custom_app/util/util.o
+ .debug_abbrev  0x00000000      0x116 build/brd4158a/custom_app/util/util.o
+ .debug_loc     0x00000000      0x12f build/brd4158a/custom_app/util/util.o
+ .debug_aranges
+                0x00000000       0x38 build/brd4158a/custom_app/util/util.o
+ .debug_ranges  0x00000000       0x28 build/brd4158a/custom_app/util/util.o
+ .debug_line    0x00000000      0x154 build/brd4158a/custom_app/util/util.o
+ .debug_str     0x00000000      0x216 build/brd4158a/custom_app/util/util.o
+ .comment       0x00000000       0x71 build/brd4158a/custom_app/util/util.o
+ .ARM.attributes
+                0x00000000       0x2e build/brd4158a/custom_app/util/util.o
+ .debug_frame   0x00000000       0x50 build/brd4158a/custom_app/util/util.o
+ .text          0x00000000        0x0 build/brd4158a/custom_app/util/api.o
+ .data          0x00000000        0x0 build/brd4158a/custom_app/util/api.o
+ .bss           0x00000000        0x0 build/brd4158a/custom_app/util/api.o
+ .text          0x00000000        0x0 build/brd4158a/custom_app/mcu/efr32xg13/hal/hfperclk.o
+ .data          0x00000000        0x0 build/brd4158a/custom_app/mcu/efr32xg13/hal/hfperclk.o
+ .bss           0x00000000        0x0 build/brd4158a/custom_app/mcu/efr32xg13/hal/hfperclk.o
+ .text          0x00000000        0x0 build/brd4158a/custom_app/mcu/efr32xg13/hal/usart.o
+ .data          0x00000000        0x0 build/brd4158a/custom_app/mcu/efr32xg13/hal/usart.o
+ .bss           0x00000000        0x0 build/brd4158a/custom_app/mcu/efr32xg13/hal/usart.o
+ .text.Usart_receiverOff
+                0x00000000        0xc build/brd4158a/custom_app/mcu/efr32xg13/hal/usart.o
+ .text.Usart_setFlowControl
+                0x00000000        0x4 build/brd4158a/custom_app/mcu/efr32xg13/hal/usart.o
+ .text.Usart_getMTUSize
+                0x00000000        0x6 build/brd4158a/custom_app/mcu/efr32xg13/hal/usart.o
+ .text.Usart_flush
+                0x00000000       0x10 build/brd4158a/custom_app/mcu/efr32xg13/hal/usart.o
+ .text          0x00000000        0x0 build/brd4158a/custom_app/mcu/efr32xg13/hal/ds.o
+ .data          0x00000000        0x0 build/brd4158a/custom_app/mcu/efr32xg13/hal/ds.o
+ .bss           0x00000000        0x0 build/brd4158a/custom_app/mcu/efr32xg13/hal/ds.o
+ .text          0x00000000        0x0 build/brd4158a/custom_app/mcu/efr32xg13/hal/hal.o
+ .data          0x00000000        0x0 build/brd4158a/custom_app/mcu/efr32xg13/hal/hal.o
+ .bss           0x00000000        0x0 build/brd4158a/custom_app/mcu/efr32xg13/hal/hal.o
+ .text          0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/app.o
+ .data          0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/app.o
+ .bss           0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/app.o
+ .text.Meter_Init
+                0x00000000        0x4 build/brd4158a/custom_app/source/custom_app/app.o
+ COMMON         0x00000000      0x100 build/brd4158a/custom_app/source/custom_app/app.o
+ .text          0x00000000        0x0 build/brd4158a/custom_app/mcu/common/start.o
+ .data          0x00000000        0x0 build/brd4158a/custom_app/mcu/common/start.o
+ .bss           0x00000000        0x0 build/brd4158a/custom_app/mcu/common/start.o
+ .text          0x00000000        0x0 build/brd4158a/custom_app/mcu/common/entrypoint.o
+ .data          0x00000000        0x0 build/brd4158a/custom_app/mcu/common/entrypoint.o
+ .bss           0x00000000        0x0 build/brd4158a/custom_app/mcu/common/entrypoint.o
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(_aeabi_ldivmod.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(_aeabi_ldivmod.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(bpabi.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(bpabi.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(_dvmd_tls.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(_divdi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(_divdi3.o)
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(_divdi3.o)
+ .ARM.exidx     0x00000000        0x8 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(_divdi3.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(_udivdi3.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(_udivdi3.o)
+ .ARM.extab     0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(_udivdi3.o)
+ .ARM.exidx     0x00000000        0x8 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(_udivdi3.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memcmp.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memcmp.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memcmp.o)
+ .text.memcmp   0x00000000       0x1e c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memcmp.o)
+ .ARM.attributes
+                0x00000000       0x2e c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memcmp.o)
+ .debug_frame   0x00000000       0x2c c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memcmp.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memcpy-stub.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memcpy-stub.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memset.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memset.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memset.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-strcat.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-strcat.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-strcat.o)
+ .text.strcat   0x00000000       0x1a c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-strcat.o)
+ .ARM.attributes
+                0x00000000       0x2e c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-strcat.o)
+ .debug_frame   0x00000000       0x28 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-strcat.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-strcpy.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-strcpy.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-strcpy.o)
+ .text.strcpy   0x00000000       0x10 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-strcpy.o)
+ .ARM.attributes
+                0x00000000       0x2e c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-strcpy.o)
+ .debug_frame   0x00000000       0x20 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-strcpy.o)
+ .text          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-strlen.o)
+ .data          0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-strlen.o)
+ .text.strlen   0x00000000       0x10 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x00000000       0x2e c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-strlen.o)
+ .debug_frame   0x00000000       0x20 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-strlen.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x00040000         0x0000a000         xr
+RAM              0x2000b000         0x00003ff8         xrw
+INVALID          0xffffffff         0x00000000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libnosys.a
+LOAD build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+LOAD build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/io.o
+LOAD build/brd4158a/custom_app/source/custom_app/meter/utils.o
+LOAD build/brd4158a/custom_app/source/custom_app/meter/logger.o
+LOAD build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+LOAD build/brd4158a/custom_app/source/custom_app/meter/uartdlt.o
+LOAD build/brd4158a/custom_app/source/custom_app/meter/persistent.o
+LOAD build/brd4158a/custom_app/source/custom_app/meter/WaterCalc.o
+LOAD build/brd4158a/custom_app/source/custom_app/meter/MeterProtocol.o
+LOAD build/brd4158a/custom_app/source/custom_app/meter/metervalve.o
+LOAD build/brd4158a/custom_app/source/custom_app/meter/MeterPush.o
+LOAD build/brd4158a/custom_app/source/custom_app/meter/DCUPush.o
+LOAD build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/led.o
+LOAD build/brd4158a/custom_app/util/crc.o
+LOAD build/brd4158a/custom_app/util/sl_list.o
+LOAD build/brd4158a/custom_app/util/util.o
+LOAD build/brd4158a/custom_app/util/api.o
+LOAD build/brd4158a/custom_app/mcu/efr32xg13/hal/hfperclk.o
+LOAD build/brd4158a/custom_app/mcu/efr32xg13/hal/usart.o
+LOAD build/brd4158a/custom_app/mcu/efr32xg13/hal/ds.o
+LOAD build/brd4158a/custom_app/mcu/efr32xg13/hal/hal.o
+LOAD build/brd4158a/custom_app/source/custom_app/app.o
+LOAD build/brd4158a/custom_app/mcu/common/start.o
+LOAD build/brd4158a/custom_app/mcu/common/entrypoint.o
+
+.text           0x00040000     0x1788
+                0x00040000                __text_start__ = .
+ *(.entrypoint)
+ .entrypoint    0x00040000       0x30 build/brd4158a/custom_app/mcu/common/entrypoint.o
+ *(.app_header)
+ .app_header    0x00040030       0x20 build/brd4158a/custom_app/mcu/common/start.o
+                0x00040030                app_header
+ *(.text.*)
+ .text.Io_init  0x00040050       0x88 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/io.o
+                0x00040050                Io_init
+ .text.ConvertBCD2Hex
+                0x000400d8       0x12 build/brd4158a/custom_app/source/custom_app/meter/utils.o
+                0x000400d8                ConvertBCD2Hex
+ .text.KeypadParseDltRxMsg
+                0x000400ea       0x5c build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+                0x000400ea                KeypadParseDltRxMsg
+ *fill*         0x00040146        0x2 
+ .text.KeypadCheckReadCommAddrssRespMsg
+                0x00040148       0x68 build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+                0x00040148                KeypadCheckReadCommAddrssRespMsg
+ .text.KeypadCompareDltDI
+                0x000401b0       0x2c build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+                0x000401b0                KeypadCompareDltDI
+ .text.DltSendBuffer
+                0x000401dc       0x2a build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+                0x000401dc                DltSendBuffer
+ *fill*         0x00040206        0x2 
+ .text.KeypadSendReadDltMsg2Meter
+                0x00040208       0xb8 build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+                0x00040208                KeypadSendReadDltMsg2Meter
+ .text.KeypadSendReadCommAddrssMsg
+                0x000402c0       0x58 build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+                0x000402c0                KeypadSendReadCommAddrssMsg
+ .text.HandleRxFromRF
+                0x00040318       0x90 build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+                0x00040318                HandleRxFromRF
+ .text.SendDltReadTime
+                0x000403a8       0x16 build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+                0x000403a8                SendDltReadTime
+ .text.SendDataReadingsReq2meter
+                0x000403be       0x16 build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+                0x000403be                SendDataReadingsReq2meter
+ .text.GetDataReadingsACK
+                0x000403d4        0xc build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+                0x000403d4                GetDataReadingsACK
+ .text.GetTimeFromMeter
+                0x000403e0        0xc build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+                0x000403e0                GetTimeFromMeter
+ .text.ClrHour  0x000403ec        0xc build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+                0x000403ec                ClrHour
+ .text.ClrDataReadingsACK
+                0x000403f8        0xc build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+                0x000403f8                ClrDataReadingsACK
+ .text.KeypadCheckReadTimeRespMsg
+                0x00040404       0x20 build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+                0x00040404                KeypadCheckReadTimeRespMsg
+ .text.HandleRxFromMeter
+                0x00040424       0x64 build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+                0x00040424                HandleRxFromMeter
+ .text.custom_uart_receive
+                0x00040488       0x38 build/brd4158a/custom_app/source/custom_app/meter/uartdlt.o
+                0x00040488                custom_uart_receive
+ .text.DltRxParamInit
+                0x000404c0       0x24 build/brd4158a/custom_app/source/custom_app/meter/uartdlt.o
+                0x000404c0                DltRxParamInit
+ .text.custom_uart_init
+                0x000404e4       0x2c build/brd4158a/custom_app/source/custom_app/meter/uartdlt.o
+                0x000404e4                custom_uart_init
+ .text.WPSendMsg
+                0x00040510       0x40 build/brd4158a/custom_app/source/custom_app/meter/MeterProtocol.o
+                0x00040510                WPSendMsg
+ .text.GetPushTest
+                0x00040550       0x10 build/brd4158a/custom_app/source/custom_app/meter/MeterPush.o
+                0x00040550                GetPushTest
+ .text.StartPushInit
+                0x00040560       0x20 build/brd4158a/custom_app/source/custom_app/meter/MeterPush.o
+                0x00040560                StartPushInit
+ .text.PushTask
+                0x00040580       0xe8 build/brd4158a/custom_app/source/custom_app/meter/MeterPush.o
+                0x00040580                PushTask
+ .text.set_led.part.0
+                0x00040668       0x3c build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/led.o
+ .text.configure_led
+                0x000406a4       0x54 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/led.o
+                0x000406a4                configure_led
+ .text.set_led  0x000406f8        0xa build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/led.o
+                0x000406f8                set_led
+ *fill*         0x00040702        0x2 
+ .text.blink_func
+                0x00040704       0x34 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/led.o
+                0x00040704                blink_func
+ .text.API_Open
+                0x00040738      0x190 build/brd4158a/custom_app/util/api.o
+                0x00040738                API_Open
+ .text.getHFPERCLK
+                0x000408c8       0x1c build/brd4158a/custom_app/mcu/efr32xg13/hal/hfperclk.o
+                0x000408c8                getHFPERCLK
+ .text.enableHFPERCLK
+                0x000408e4       0x1c build/brd4158a/custom_app/mcu/efr32xg13/hal/hfperclk.o
+                0x000408e4                enableHFPERCLK
+ .text.USART_RX_IRQHandler
+                0x00040900       0x30 build/brd4158a/custom_app/mcu/efr32xg13/hal/usart.o
+                0x00040900                USART_RX_IRQHandler
+ .text.Usart_init
+                0x00040930      0x128 build/brd4158a/custom_app/mcu/efr32xg13/hal/usart.o
+                0x00040930                Usart_init
+ .text.Usart_setEnabled
+                0x00040a58       0x80 build/brd4158a/custom_app/mcu/efr32xg13/hal/usart.o
+                0x00040a58                Usart_setEnabled
+ .text.USART_TX_IRQHandler
+                0x00040ad8       0x60 build/brd4158a/custom_app/mcu/efr32xg13/hal/usart.o
+                0x00040ad8                USART_TX_IRQHandler
+ .text.Usart_receiverOn
+                0x00040b38        0xc build/brd4158a/custom_app/mcu/efr32xg13/hal/usart.o
+                0x00040b38                Usart_receiverOn
+ .text.Usart_sendBuffer
+                0x00040b44       0x94 build/brd4158a/custom_app/mcu/efr32xg13/hal/usart.o
+                0x00040b44                Usart_sendBuffer
+ .text.Usart_enableReceiver
+                0x00040bd8       0xa0 build/brd4158a/custom_app/mcu/efr32xg13/hal/usart.o
+                0x00040bd8                Usart_enableReceiver
+ .text.DS_Init  0x00040c78        0xc build/brd4158a/custom_app/mcu/efr32xg13/hal/ds.o
+                0x00040c78                DS_Init
+ .text.DS_Enable
+                0x00040c84       0x38 build/brd4158a/custom_app/mcu/efr32xg13/hal/ds.o
+                0x00040c84                DS_Enable
+ .text.DS_Disable
+                0x00040cbc       0x34 build/brd4158a/custom_app/mcu/efr32xg13/hal/ds.o
+                0x00040cbc                DS_Disable
+ .text.HAL_Open
+                0x00040cf0       0x18 build/brd4158a/custom_app/mcu/efr32xg13/hal/hal.o
+                0x00040cf0                HAL_Open
+ .text.onScannedNborsCb
+                0x00040d08       0x3c build/brd4158a/custom_app/source/custom_app/app.o
+                0x00040d08                onScannedNborsCb
+ .text.dataReceivedCb
+                0x00040d44       0x44 build/brd4158a/custom_app/source/custom_app/app.o
+                0x00040d44                dataReceivedCb
+ .text.HandleRxFromUart
+                0x00040d88       0xb4 build/brd4158a/custom_app/source/custom_app/app.o
+                0x00040d88                HandleRxFromUart
+ .text.meter_task
+                0x00040e3c       0x12 build/brd4158a/custom_app/source/custom_app/app.o
+                0x00040e3c                meter_task
+ *fill*         0x00040e4e        0x2 
+ .text.meter_stack_init
+                0x00040e50       0xf8 build/brd4158a/custom_app/source/custom_app/app.o
+                0x00040e50                meter_stack_init
+ .text.App_init
+                0x00040f48       0xa0 build/brd4158a/custom_app/source/custom_app/app.o
+                0x00040f48                App_init
+ .text.DltGeTnbors
+                0x00040fe8       0x24 build/brd4158a/custom_app/source/custom_app/app.o
+                0x00040fe8                DltGeTnbors
+ .text._start   0x0004100c       0x6c build/brd4158a/custom_app/mcu/common/start.o
+                0x0004100c                _start
+ .text.memcpy   0x00041078       0x12 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memcpy-stub.o)
+                0x00041078                memcpy
+ .text.memset   0x0004108a       0x10 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memset.o)
+                0x0004108a                memset
+ *(.text)
+ *fill*         0x0004109a        0x2 
+ .text          0x0004109c       0x38 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(_aeabi_ldivmod.o)
+                0x0004109c                __aeabi_ldivmod
+ .text          0x000410d4       0x60 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(bpabi.o)
+                0x000410d4                __gnu_ldivmod_helper
+                0x00041104                __gnu_uldivmod_helper
+ .text          0x00041134        0x4 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(_dvmd_tls.o)
+                0x00041134                __aeabi_idiv0
+                0x00041134                __aeabi_ldiv0
+ .text          0x00041138      0x298 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(_divdi3.o)
+                0x00041138                __divdi3
+ .text          0x000413d0      0x284 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(_udivdi3.o)
+                0x000413d0                __udivdi3
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+ *(.v4_bx)
+ .v4_bx         0x00000000        0x0 linker stubs
+ *(.rodata.*)
+ .rodata.DLTID  0x00041654       0xec build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+                0x00041654                DLTID
+ .rodata.pin_map
+                0x00041740       0x10 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/led.o
+ .rodata.str1.1
+                0x00041750       0x34 build/brd4158a/custom_app/source/custom_app/app.o
+ *(.rodata)
+ *(.rodata1)
+                0x00041788                . = ALIGN (0x8)
+ *fill*         0x00041784        0x4 
+                0x00041788                __text_end__ = .
+                0x00041788                __data_src_start__ = .
+
+.data           0x2000b000        0x8 load address 0x00041788
+                0x2000b000                __data_start__ = .
+ *(.ramtext)
+ *(.data.*)
+ .data.Hour     0x2000b000        0x1 build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+ .data.lasthouracked
+                0x2000b001        0x1 build/brd4158a/custom_app/source/custom_app/meter/MeterPush.o
+ .data.hourinprocess
+                0x2000b002        0x1 build/brd4158a/custom_app/source/custom_app/meter/MeterPush.o
+ *fill*         0x2000b003        0x1 
+ .data.m_used_app_ram_end
+                0x2000b004        0x4 build/brd4158a/custom_app/mcu/common/start.o
+                0x2000b004                m_used_app_ram_end
+ *(.data)
+ *(.data1)
+                0x2000b008                . = ALIGN (0x8)
+                0x2000b008                __data_end__ = .
+                0x00041790                __rom_end__ = (__data_src_start__ + SIZEOF (.data))
+                0x00001790                __total_size_bytes__ = (__rom_end__ - __text_start__)
+
+.bss            0x2000b008      0x558 load address 0x00041790
+                0x2000b008                __bss_start__ = .
+ *(.bss.*)
+ .bss.Ackdcu    0x2000b008        0x1 build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+ .bss.MeterReqRetry
+                0x2000b009        0x1 build/brd4158a/custom_app/source/custom_app/meter/MeterPush.o
+ .bss.tmpbuf    0x2000b00a        0x2 build/brd4158a/custom_app/source/custom_app/meter/MeterPush.o
+ .bss.SendPeriodicCntr
+                0x2000b00c        0x4 build/brd4158a/custom_app/source/custom_app/meter/MeterPush.o
+ .bss.DataReadingsState
+                0x2000b010        0x1 build/brd4158a/custom_app/source/custom_app/meter/MeterPush.o
+ *fill*         0x2000b011        0x3 
+ .bss.lib_otap  0x2000b014        0x4 build/brd4158a/custom_app/util/api.o
+                0x2000b014                lib_otap
+ .bss.lib_hw    0x2000b018        0x4 build/brd4158a/custom_app/util/api.o
+                0x2000b018                lib_hw
+ .bss.lib_beacon_rx
+                0x2000b01c        0x4 build/brd4158a/custom_app/util/api.o
+                0x2000b01c                lib_beacon_rx
+ .bss.lib_memory_area
+                0x2000b020        0x4 build/brd4158a/custom_app/util/api.o
+                0x2000b020                lib_memory_area
+ .bss.global_func
+                0x2000b024        0x4 build/brd4158a/custom_app/util/api.o
+                0x2000b024                global_func
+ .bss.lib_sleep
+                0x2000b028        0x4 build/brd4158a/custom_app/util/api.o
+                0x2000b028                lib_sleep
+ .bss.lib_settings
+                0x2000b02c        0x4 build/brd4158a/custom_app/util/api.o
+                0x2000b02c                lib_settings
+ .bss.lib_system
+                0x2000b030        0x4 build/brd4158a/custom_app/util/api.o
+                0x2000b030                lib_system
+ .bss.lib_state
+                0x2000b034        0x4 build/brd4158a/custom_app/util/api.o
+                0x2000b034                lib_state
+ .bss.lib_beacon_tx
+                0x2000b038        0x4 build/brd4158a/custom_app/util/api.o
+                0x2000b038                lib_beacon_tx
+ .bss.lib_time  0x2000b03c        0x4 build/brd4158a/custom_app/util/api.o
+                0x2000b03c                lib_time
+ .bss.lib_data  0x2000b040        0x4 build/brd4158a/custom_app/util/api.o
+                0x2000b040                lib_data
+ .bss.lib_storage
+                0x2000b044        0x4 build/brd4158a/custom_app/util/api.o
+                0x2000b044                lib_storage
+ .bss.m_enabled
+                0x2000b048        0x4 build/brd4158a/custom_app/mcu/efr32xg13/hal/usart.o
+ .bss.m_rx_callback
+                0x2000b04c        0x4 build/brd4158a/custom_app/mcu/efr32xg13/hal/usart.o
+ .bss.m_tx_active
+                0x2000b050        0x1 build/brd4158a/custom_app/mcu/efr32xg13/hal/usart.o
+ *fill*         0x2000b051        0x1 
+ .bss.m_usart_tx_buffer
+                0x2000b052      0x204 build/brd4158a/custom_app/mcu/efr32xg13/hal/usart.o
+ *fill*         0x2000b256        0x2 
+ .bss.m_sleep_mask
+                0x2000b258        0x4 build/brd4158a/custom_app/mcu/efr32xg13/hal/ds.o
+ .bss.m_opened  0x2000b25c        0x1 build/brd4158a/custom_app/mcu/efr32xg13/hal/hal.o
+ *(.bss)
+ *(COMMON)
+ *fill*         0x2000b25d        0x1 
+ COMMON         0x2000b25e       0xe3 build/brd4158a/custom_app/source/custom_app/meter/logger.o
+                0x2000b25e                loggerIndex
+                0x2000b25f                NodeType
+                0x2000b260                TmpLoggerIndex
+                0x2000b262                WaterLogger
+                0x2000b322                TmpLoggerItem
+                0x2000b32a                LastLoggerIndexSend
+                0x2000b32b                sMyConfig
+ *fill*         0x2000b341        0x3 
+ COMMON         0x2000b344      0x111 build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+                0x2000b344                TmpTxBuf
+                0x2000b443                led_state
+                0x2000b444                ReconfigureNode
+                0x2000b445                EMConfigMacADDR0
+                0x2000b44c                DltRxTimeout
+                0x2000b450                TmpTxsizeBuf
+                0x2000b454                DisplayState
+ *fill*         0x2000b455        0x3 
+ COMMON         0x2000b458      0x108 build/brd4158a/custom_app/source/custom_app/meter/uartdlt.o
+                0x2000b458                rx_buffer
+                0x2000b557                m_escaped
+                0x2000b558                m_timeout
+                0x2000b55c                rx_buffer_idx
+                0x2000b560                . = ALIGN (0x8)
+                0x2000b560                __bss_end__ = .
+                0x2000eff8                __ram_end__ = (ORIGIN (RAM) + 0x3ff8)
+
+.invalid        0x00000000        0x0
+ *(.init)
+ *(.fini)
+ *(.preinit_array)
+ *(.init_array)
+ *(.fini_array)
+ *(.ctors)
+ *(.dtors)
+ *(.jcr)
+ *(.eh_frame)
+ *(.eh_frame_hdr)
+ *(.heap*)
+ *(.tbss)
+ *(.tdata)
+ *(.tdata1)
+ *(.got)
+ *(.got.plt)
+ *(.igot.plt)
+ .igot.plt      0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ *(.iplt)
+ .iplt          0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+ *(.rel.dyn)
+ *(.rel.iplt)
+ .rel.iplt      0x00000000        0x0 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/exti.o
+
+/DISCARD/
+ *(.ARM.extab)
+ *(.ARM.exidx)
+START GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a
+LOAD c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libc_s.a
+END GROUP
+START GROUP
+LOAD c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a
+LOAD c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libc_s.a
+END GROUP
+OUTPUT(build/brd4158a/custom_app/custom_app.elf elf32-littlearm)
+
+.debug_info     0x00000000     0x9c52
+ .debug_info    0x00000000      0xa3e build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/io.o
+ .debug_info    0x00000a3e      0x36d build/brd4158a/custom_app/source/custom_app/meter/utils.o
+ .debug_info    0x00000dab      0x642 build/brd4158a/custom_app/source/custom_app/meter/logger.o
+ .debug_info    0x000013ed      0xf5c build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+ .debug_info    0x00002349      0x295 build/brd4158a/custom_app/source/custom_app/meter/uartdlt.o
+ .debug_info    0x000025de      0xb00 build/brd4158a/custom_app/source/custom_app/meter/MeterProtocol.o
+ .debug_info    0x000030de      0x233 build/brd4158a/custom_app/source/custom_app/meter/MeterPush.o
+ .debug_info    0x00003311      0x6f9 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/led.o
+ .debug_info    0x00003a0a     0x22ae build/brd4158a/custom_app/util/api.o
+ .debug_info    0x00005cb8      0x50a build/brd4158a/custom_app/mcu/efr32xg13/hal/hfperclk.o
+ .debug_info    0x000061c2     0x15f8 build/brd4158a/custom_app/mcu/efr32xg13/hal/usart.o
+ .debug_info    0x000077ba      0x402 build/brd4158a/custom_app/mcu/efr32xg13/hal/ds.o
+ .debug_info    0x00007bbc       0xe3 build/brd4158a/custom_app/mcu/efr32xg13/hal/hal.o
+ .debug_info    0x00007c9f     0x1b4f build/brd4158a/custom_app/source/custom_app/app.o
+ .debug_info    0x000097ee      0x3c1 build/brd4158a/custom_app/mcu/common/start.o
+ .debug_info    0x00009baf       0xa3 build/brd4158a/custom_app/mcu/common/entrypoint.o
+
+.debug_abbrev   0x00000000     0x1b8d
+ .debug_abbrev  0x00000000      0x14b build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/io.o
+ .debug_abbrev  0x0000014b      0x16b build/brd4158a/custom_app/source/custom_app/meter/utils.o
+ .debug_abbrev  0x000002b6      0x1ca build/brd4158a/custom_app/source/custom_app/meter/logger.o
+ .debug_abbrev  0x00000480      0x2c2 build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+ .debug_abbrev  0x00000742      0x167 build/brd4158a/custom_app/source/custom_app/meter/uartdlt.o
+ .debug_abbrev  0x000008a9      0x1d6 build/brd4158a/custom_app/source/custom_app/meter/MeterProtocol.o
+ .debug_abbrev  0x00000a7f      0x111 build/brd4158a/custom_app/source/custom_app/meter/MeterPush.o
+ .debug_abbrev  0x00000b90      0x234 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/led.o
+ .debug_abbrev  0x00000dc4      0x17a build/brd4158a/custom_app/util/api.o
+ .debug_abbrev  0x00000f3e       0xf4 build/brd4158a/custom_app/mcu/efr32xg13/hal/hfperclk.o
+ .debug_abbrev  0x00001032      0x3ed build/brd4158a/custom_app/mcu/efr32xg13/hal/usart.o
+ .debug_abbrev  0x0000141f      0x152 build/brd4158a/custom_app/mcu/efr32xg13/hal/ds.o
+ .debug_abbrev  0x00001571       0x96 build/brd4158a/custom_app/mcu/efr32xg13/hal/hal.o
+ .debug_abbrev  0x00001607      0x3cb build/brd4158a/custom_app/source/custom_app/app.o
+ .debug_abbrev  0x000019d2      0x1a7 build/brd4158a/custom_app/mcu/common/start.o
+ .debug_abbrev  0x00001b79       0x14 build/brd4158a/custom_app/mcu/common/entrypoint.o
+
+.debug_aranges  0x00000000      0x3f8
+ .debug_aranges
+                0x00000000       0x40 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/io.o
+ .debug_aranges
+                0x00000040       0x58 build/brd4158a/custom_app/source/custom_app/meter/utils.o
+ .debug_aranges
+                0x00000098       0x50 build/brd4158a/custom_app/source/custom_app/meter/logger.o
+ .debug_aranges
+                0x000000e8       0xa8 build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+ .debug_aranges
+                0x00000190       0x30 build/brd4158a/custom_app/source/custom_app/meter/uartdlt.o
+ .debug_aranges
+                0x000001c0       0x28 build/brd4158a/custom_app/source/custom_app/meter/MeterProtocol.o
+ .debug_aranges
+                0x000001e8       0x30 build/brd4158a/custom_app/source/custom_app/meter/MeterPush.o
+ .debug_aranges
+                0x00000218       0x40 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/led.o
+ .debug_aranges
+                0x00000258       0x20 build/brd4158a/custom_app/util/api.o
+ .debug_aranges
+                0x00000278       0x28 build/brd4158a/custom_app/mcu/efr32xg13/hal/hfperclk.o
+ .debug_aranges
+                0x000002a0       0x70 build/brd4158a/custom_app/mcu/efr32xg13/hal/usart.o
+ .debug_aranges
+                0x00000310       0x30 build/brd4158a/custom_app/mcu/efr32xg13/hal/ds.o
+ .debug_aranges
+                0x00000340       0x20 build/brd4158a/custom_app/mcu/efr32xg13/hal/hal.o
+ .debug_aranges
+                0x00000360       0x58 build/brd4158a/custom_app/source/custom_app/app.o
+ .debug_aranges
+                0x000003b8       0x20 build/brd4158a/custom_app/mcu/common/start.o
+ .debug_aranges
+                0x000003d8       0x20 build/brd4158a/custom_app/mcu/common/entrypoint.o
+
+.debug_ranges   0x00000000      0x3e8
+ .debug_ranges  0x00000000       0x30 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/io.o
+ .debug_ranges  0x00000030       0x48 build/brd4158a/custom_app/source/custom_app/meter/utils.o
+ .debug_ranges  0x00000078       0x40 build/brd4158a/custom_app/source/custom_app/meter/logger.o
+ .debug_ranges  0x000000b8       0xb8 build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+ .debug_ranges  0x00000170       0x20 build/brd4158a/custom_app/source/custom_app/meter/uartdlt.o
+ .debug_ranges  0x00000190       0x18 build/brd4158a/custom_app/source/custom_app/meter/MeterProtocol.o
+ .debug_ranges  0x000001a8       0x20 build/brd4158a/custom_app/source/custom_app/meter/MeterPush.o
+ .debug_ranges  0x000001c8       0x98 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/led.o
+ .debug_ranges  0x00000260       0x10 build/brd4158a/custom_app/util/api.o
+ .debug_ranges  0x00000270       0x18 build/brd4158a/custom_app/mcu/efr32xg13/hal/hfperclk.o
+ .debug_ranges  0x00000288       0x90 build/brd4158a/custom_app/mcu/efr32xg13/hal/usart.o
+ .debug_ranges  0x00000318       0x20 build/brd4158a/custom_app/mcu/efr32xg13/hal/ds.o
+ .debug_ranges  0x00000338       0x10 build/brd4158a/custom_app/mcu/efr32xg13/hal/hal.o
+ .debug_ranges  0x00000348       0x78 build/brd4158a/custom_app/source/custom_app/app.o
+ .debug_ranges  0x000003c0       0x28 build/brd4158a/custom_app/mcu/common/start.o
+
+.debug_line     0x00000000     0x25a2
+ .debug_line    0x00000000      0x225 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/io.o
+ .debug_line    0x00000225      0x27f build/brd4158a/custom_app/source/custom_app/meter/utils.o
+ .debug_line    0x000004a4      0x1fb build/brd4158a/custom_app/source/custom_app/meter/logger.o
+ .debug_line    0x0000069f      0x538 build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+ .debug_line    0x00000bd7      0x1c1 build/brd4158a/custom_app/source/custom_app/meter/uartdlt.o
+ .debug_line    0x00000d98      0x25a build/brd4158a/custom_app/source/custom_app/meter/MeterProtocol.o
+ .debug_line    0x00000ff2      0x197 build/brd4158a/custom_app/source/custom_app/meter/MeterPush.o
+ .debug_line    0x00001189      0x226 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/led.o
+ .debug_line    0x000013af      0x24f build/brd4158a/custom_app/util/api.o
+ .debug_line    0x000015fe      0x17e build/brd4158a/custom_app/mcu/efr32xg13/hal/hfperclk.o
+ .debug_line    0x0000177c      0x4eb build/brd4158a/custom_app/mcu/efr32xg13/hal/usart.o
+ .debug_line    0x00001c67      0x212 build/brd4158a/custom_app/mcu/efr32xg13/hal/ds.o
+ .debug_line    0x00001e79      0x147 build/brd4158a/custom_app/mcu/efr32xg13/hal/hal.o
+ .debug_line    0x00001fc0      0x3f1 build/brd4158a/custom_app/source/custom_app/app.o
+ .debug_line    0x000023b1      0x1a7 build/brd4158a/custom_app/mcu/common/start.o
+ .debug_line    0x00002558       0x4a build/brd4158a/custom_app/mcu/common/entrypoint.o
+
+.debug_str      0x00000000     0x4c6a
+ .debug_str     0x00000000      0x67d build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/io.o
+                                0x6e2 (size before relaxing)
+ .debug_str     0x0000067d       0xeb build/brd4158a/custom_app/source/custom_app/meter/utils.o
+                                0x2c4 (size before relaxing)
+ .debug_str     0x00000768      0x49b build/brd4158a/custom_app/source/custom_app/meter/logger.o
+                                0x687 (size before relaxing)
+ .debug_str     0x00000c03      0xa87 build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+                                0xdf5 (size before relaxing)
+ .debug_str     0x0000168a      0x128 build/brd4158a/custom_app/source/custom_app/meter/uartdlt.o
+                                0x31e (size before relaxing)
+ .debug_str     0x000017b2      0xa2b build/brd4158a/custom_app/source/custom_app/meter/MeterProtocol.o
+                                0xdc0 (size before relaxing)
+ .debug_str     0x000021dd       0xf0 build/brd4158a/custom_app/source/custom_app/meter/MeterPush.o
+                                0x320 (size before relaxing)
+ .debug_str     0x000022cd       0xa1 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/led.o
+                                0x3db (size before relaxing)
+ .debug_str     0x0000236e     0x2167 build/brd4158a/custom_app/util/api.o
+                               0x2eb6 (size before relaxing)
+ .debug_str     0x000044d5       0x3f build/brd4158a/custom_app/mcu/efr32xg13/hal/hfperclk.o
+                                0x4da (size before relaxing)
+ .debug_str     0x00004514      0x427 build/brd4158a/custom_app/mcu/efr32xg13/hal/usart.o
+                                0xfc6 (size before relaxing)
+ .debug_str     0x0000493b       0x2c build/brd4158a/custom_app/mcu/efr32xg13/hal/ds.o
+                                0x627 (size before relaxing)
+ .debug_str     0x00004967       0x2a build/brd4158a/custom_app/mcu/efr32xg13/hal/hal.o
+                                0x1e6 (size before relaxing)
+ .debug_str     0x00004991      0x196 build/brd4158a/custom_app/source/custom_app/app.o
+                               0x1e33 (size before relaxing)
+ .debug_str     0x00004b27      0x143 build/brd4158a/custom_app/mcu/common/start.o
+                                0x3f3 (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/io.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 build/brd4158a/custom_app/source/custom_app/meter/utils.o
+ .comment       0x00000000       0x71 build/brd4158a/custom_app/source/custom_app/meter/logger.o
+ .comment       0x00000000       0x71 build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+ .comment       0x00000000       0x71 build/brd4158a/custom_app/source/custom_app/meter/uartdlt.o
+ .comment       0x00000000       0x71 build/brd4158a/custom_app/source/custom_app/meter/MeterProtocol.o
+ .comment       0x00000000       0x71 build/brd4158a/custom_app/source/custom_app/meter/MeterPush.o
+ .comment       0x00000000       0x71 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/led.o
+ .comment       0x00000000       0x71 build/brd4158a/custom_app/util/api.o
+ .comment       0x00000000       0x71 build/brd4158a/custom_app/mcu/efr32xg13/hal/hfperclk.o
+ .comment       0x00000000       0x71 build/brd4158a/custom_app/mcu/efr32xg13/hal/usart.o
+ .comment       0x00000000       0x71 build/brd4158a/custom_app/mcu/efr32xg13/hal/ds.o
+ .comment       0x00000000       0x71 build/brd4158a/custom_app/mcu/efr32xg13/hal/hal.o
+ .comment       0x00000000       0x71 build/brd4158a/custom_app/source/custom_app/app.o
+ .comment       0x00000000       0x71 build/brd4158a/custom_app/mcu/common/start.o
+
+.ARM.attributes
+                0x00000000       0x2c
+ .ARM.attributes
+                0x00000000       0x2e build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/io.o
+ .ARM.attributes
+                0x0000002e       0x2e build/brd4158a/custom_app/source/custom_app/meter/utils.o
+ .ARM.attributes
+                0x0000005c       0x2e build/brd4158a/custom_app/source/custom_app/meter/logger.o
+ .ARM.attributes
+                0x0000008a       0x2e build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+ .ARM.attributes
+                0x000000b8       0x2e build/brd4158a/custom_app/source/custom_app/meter/uartdlt.o
+ .ARM.attributes
+                0x000000e6       0x2e build/brd4158a/custom_app/source/custom_app/meter/MeterProtocol.o
+ .ARM.attributes
+                0x00000114       0x2e build/brd4158a/custom_app/source/custom_app/meter/MeterPush.o
+ .ARM.attributes
+                0x00000142       0x2e build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/led.o
+ .ARM.attributes
+                0x00000170       0x2e build/brd4158a/custom_app/util/api.o
+ .ARM.attributes
+                0x0000019e       0x2e build/brd4158a/custom_app/mcu/efr32xg13/hal/hfperclk.o
+ .ARM.attributes
+                0x000001cc       0x2e build/brd4158a/custom_app/mcu/efr32xg13/hal/usart.o
+ .ARM.attributes
+                0x000001fa       0x2e build/brd4158a/custom_app/mcu/efr32xg13/hal/ds.o
+ .ARM.attributes
+                0x00000228       0x2e build/brd4158a/custom_app/mcu/efr32xg13/hal/hal.o
+ .ARM.attributes
+                0x00000256       0x2e build/brd4158a/custom_app/source/custom_app/app.o
+ .ARM.attributes
+                0x00000284       0x2e build/brd4158a/custom_app/mcu/common/start.o
+ .ARM.attributes
+                0x000002b2       0x1b build/brd4158a/custom_app/mcu/common/entrypoint.o
+ .ARM.attributes
+                0x000002cd       0x1e c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(_aeabi_ldivmod.o)
+ .ARM.attributes
+                0x000002eb       0x2e c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(bpabi.o)
+ .ARM.attributes
+                0x00000319       0x1e c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000337       0x2e c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(_divdi3.o)
+ .ARM.attributes
+                0x00000365       0x2e c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(_udivdi3.o)
+ .ARM.attributes
+                0x00000393       0x2e c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x000003c1       0x2e c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memset.o)
+
+.debug_frame    0x00000000      0x928
+ .debug_frame   0x00000000       0x60 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/io.o
+ .debug_frame   0x00000060       0xc8 build/brd4158a/custom_app/source/custom_app/meter/utils.o
+ .debug_frame   0x00000128       0x9c build/brd4158a/custom_app/source/custom_app/meter/logger.o
+ .debug_frame   0x000001c4      0x1ec build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+ .debug_frame   0x000003b0       0x4c build/brd4158a/custom_app/source/custom_app/meter/uartdlt.o
+ .debug_frame   0x000003fc       0x50 build/brd4158a/custom_app/source/custom_app/meter/MeterProtocol.o
+ .debug_frame   0x0000044c       0x54 build/brd4158a/custom_app/source/custom_app/meter/MeterPush.o
+ .debug_frame   0x000004a0       0x78 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/led.o
+ .debug_frame   0x00000518       0x38 build/brd4158a/custom_app/util/api.o
+ .debug_frame   0x00000550       0x30 build/brd4158a/custom_app/mcu/efr32xg13/hal/hfperclk.o
+ .debug_frame   0x00000580      0x118 build/brd4158a/custom_app/mcu/efr32xg13/hal/usart.o
+ .debug_frame   0x00000698       0x58 build/brd4158a/custom_app/mcu/efr32xg13/hal/ds.o
+ .debug_frame   0x000006f0       0x28 build/brd4158a/custom_app/mcu/efr32xg13/hal/hal.o
+ .debug_frame   0x00000718       0xe4 build/brd4158a/custom_app/source/custom_app/app.o
+ .debug_frame   0x000007fc       0x2c build/brd4158a/custom_app/mcu/common/start.o
+ .debug_frame   0x00000828       0x50 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(bpabi.o)
+ .debug_frame   0x00000878       0x34 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(_divdi3.o)
+ .debug_frame   0x000008ac       0x34 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/armv7e-m\libgcc.a(_udivdi3.o)
+ .debug_frame   0x000008e0       0x28 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x00000908       0x20 c:/program files (x86)/gnu tools arm embedded/4.8 2014q3/bin/../lib/gcc/arm-none-eabi/4.8.4/../../../../arm-none-eabi/lib/armv7e-m\libg_s.a(lib_a-memset.o)
+
+.debug_loc      0x00000000     0x1c06
+ .debug_loc     0x00000000      0x35e build/brd4158a/custom_app/source/custom_app/meter/utils.o
+ .debug_loc     0x0000035e       0x77 build/brd4158a/custom_app/source/custom_app/meter/logger.o
+ .debug_loc     0x000003d5      0xafe build/brd4158a/custom_app/source/custom_app/meter/DLTProtocol.o
+ .debug_loc     0x00000ed3       0x60 build/brd4158a/custom_app/source/custom_app/meter/uartdlt.o
+ .debug_loc     0x00000f33       0x6f build/brd4158a/custom_app/source/custom_app/meter/MeterProtocol.o
+ .debug_loc     0x00000fa2       0x29 build/brd4158a/custom_app/source/custom_app/meter/MeterPush.o
+ .debug_loc     0x00000fcb      0x327 build/brd4158a/custom_app/source/custom_app/drivers/efr32xg13/led.o
+ .debug_loc     0x000012f2       0x2c build/brd4158a/custom_app/util/api.o
+ .debug_loc     0x0000131e       0x1f build/brd4158a/custom_app/mcu/efr32xg13/hal/hfperclk.o
+ .debug_loc     0x0000133d      0x46d build/brd4158a/custom_app/mcu/efr32xg13/hal/usart.o
+ .debug_loc     0x000017aa       0x58 build/brd4158a/custom_app/mcu/efr32xg13/hal/ds.o
+ .debug_loc     0x00001802      0x2d2 build/brd4158a/custom_app/source/custom_app/app.o
+ .debug_loc     0x00001ad4      0x132 build/brd4158a/custom_app/mcu/common/start.o

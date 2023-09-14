@@ -1,0 +1,25 @@
+var structapp__lib__otap__t =
+[
+    [ "begin", "da/d23/structapp__lib__otap__t.html#abbb722949ae70751e24c7ecbeec3f1a6", null ],
+    [ "clear", "da/d23/structapp__lib__otap__t.html#a0f8df54af52441810e03dde561c23811", null ],
+    [ "getCrc", "da/d23/structapp__lib__otap__t.html#ab9b2af8a8eea03a48f2e9a1b7bf76396", null ],
+    [ "getMaxBlockNumBytes", "da/d23/structapp__lib__otap__t.html#a471f1fe9b71534a54c285db244a4210a", null ],
+    [ "getMaxNumBytes", "da/d23/structapp__lib__otap__t.html#a57696c59349ed7140e3f27834e94dd91", null ],
+    [ "getNumBytes", "da/d23/structapp__lib__otap__t.html#a05700791a24b65cf2bf6086c5fdfccbf", null ],
+    [ "getProcessedAreaId", "da/d23/structapp__lib__otap__t.html#a016a28eb0d49845bcc88f0092bd31b5b", null ],
+    [ "getProcessedCrc", "da/d23/structapp__lib__otap__t.html#aebecc286e5bb9a518645bbe33254ded2", null ],
+    [ "getProcessedNumBytes", "da/d23/structapp__lib__otap__t.html#af474554f09d136c9633c49ee24b09b36", null ],
+    [ "getProcessedSeq", "da/d23/structapp__lib__otap__t.html#a43e29f30ba6a5ec19013757bf2ee3fa9", null ],
+    [ "getSeq", "da/d23/structapp__lib__otap__t.html#aefc86e59a80daae7aca7e047761a0b82", null ],
+    [ "getStatus", "da/d23/structapp__lib__otap__t.html#aaaab5c9855d0d0d880e1522d82ef129d", null ],
+    [ "getType", "da/d23/structapp__lib__otap__t.html#adb3f2eddc49647bdf780925a81855ec4", null ],
+    [ "isProcessed", "da/d23/structapp__lib__otap__t.html#a1f2b095c11a7051dc553ac5694339242", null ],
+    [ "isSetToBeProcessed", "da/d23/structapp__lib__otap__t.html#a434e1ea08f9ce60803cf56e0de56a306", null ],
+    [ "isValid", "da/d23/structapp__lib__otap__t.html#a610e3c6dd04845109d1195d9f3f6e91f", null ],
+    [ "read", "da/d23/structapp__lib__otap__t.html#a4c4b909f059c1f84692494a0cdd5c957", null ],
+    [ "sendRemoteStatusReq", "da/d23/structapp__lib__otap__t.html#a7a361e217e8db4f876f8bc6fd49e0399", null ],
+    [ "sendRemoteUpdateReq", "da/d23/structapp__lib__otap__t.html#a6da5d29a9cf12de23f2a2931dfec71c2", null ],
+    [ "setRemoteStatusReceivedCb", "da/d23/structapp__lib__otap__t.html#a822f3be9bb7c31bfae922d57159406d2", null ],
+    [ "setToBeProcessed", "da/d23/structapp__lib__otap__t.html#abeb0545e49eadf68c73085dcb9be307b", null ],
+    [ "write", "da/d23/structapp__lib__otap__t.html#a31e3bdf24dd52cf58f0b2b1a13b737f1", null ]
+];
